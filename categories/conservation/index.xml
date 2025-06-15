@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conservation on Dave Klinges | Ecology and Conservation</title>
+    <link>https://natureinparadise.github.io/categories/conservation/</link>
+    <description>Recent content in Conservation on Dave Klinges | Ecology and Conservation</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 13 Sep 2022 11:07:10 +0600</lastBuildDate>
+    <atom:link href="https://natureinparadise.github.io/categories/conservation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Curation Workshop for Park Managers</title>
+      <link>https://natureinparadise.github.io/blog/mnp_workshop/</link>
+      <pubDate>Tue, 13 Sep 2022 11:07:10 +0600</pubDate>
+      <guid>https://natureinparadise.github.io/blog/mnp_workshop/</guid>
+      <description>In August 2022, I co-organized a week-long workshop for Madagascar National Parks to develop data management, analysis, and visualization skills, pertaining to the database of vertebrate observations for the 43 terrestrial protected areas across Madagascar.</description>
+    </item>
+  </channel>
+</rss>

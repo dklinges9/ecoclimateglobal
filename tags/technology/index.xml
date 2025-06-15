@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on Dave Klinges | Ecology and Conservation</title>
+    <link>https://natureinparadise.github.io/tags/technology/</link>
+    <description>Recent content in Technology on Dave Klinges | Ecology and Conservation</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 31 Jul 2024 11:07:10 +0600</lastBuildDate>
+    <atom:link href="https://natureinparadise.github.io/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Co-Developing Conservation Tech in Madagascar</title>
+      <link>https://natureinparadise.github.io/blog/mada_conservation_tech/</link>
+      <pubDate>Wed, 31 Jul 2024 11:07:10 +0600</pubDate>
+      <guid>https://natureinparadise.github.io/blog/mada_conservation_tech/</guid>
+      <description>A trip included vists to three protected area systems: Andasibe-Mantadia National Park, Ranomafana National Park, and Beza Mahafaly Special Reserve. At each location, we had arranged meetings with partners and stakeholders in conservation.</description>
+    </item>
+  </channel>
+</rss>

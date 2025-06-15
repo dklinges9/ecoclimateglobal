@@ -1,0 +1,78 @@
+
+# main menu
+[[main]]
+name = "Home"
+URL = "/"
+weight = 1
+
+# about page
+[[main]]
+name = "About"
+URL = "about"
+weight = 2
+
+# publications page
+[[main]]
+name = "Publications"
+URL = "publications"
+weight = 3
+
+[[main]]
+name = "Research"
+URL = "research"
+weight = 4
+hasChildren = true
+
+# [[main]]
+# name = "Projects"
+# URL = "project"
+# weight = 5
+# hasChildren = true
+# 
+#   [[main]]
+#   parent = "Projects"
+#   name = "Land Cover"
+#   URL = "lcluc"
+
+[[main]]
+name = "People"
+URL = "people"
+weight = 6
+
+[[main]]
+name = "Blog"
+URL = "blog"
+weight = 7
+
+[[main]]
+weight = 8
+name = "Data & Software"
+URL = "data_software"
+
+[[main]]
+name = "Multimedia"
+URL = "project"
+weight = 9
+  
+[[main]]
+name = "Contact"
+URL = "contact"
+weight = 10
+
+# footer menu
+[[footer]]
+name = "About"
+URL = "about"
+weight = 1
+[[footer]]
+name = "Research"
+URL = "research"
+weight = 2
+[[footer]]
+name = "Multimedia"
+URL = "gallery"
+weight = 3
+[[footer]]
+name = "Contact"
+URL = "contact"
+weight = 4

@@ -1,0 +1,21 @@
+{
+  "name": "natureinparadise-hugo",
+  "version": "1.0.0",
+  "description": "natureinparadise main website",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "hugo server",
+    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
+    "preview": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
+    "update-modules": "node ./scripts/clearModules.js && hugo mod clean --all && hugo mod get -u ./... && hugo mod tidy",
+    "format": "prettier -w '**/*.{html,md}'",
+    "project-setup": "npm install && npm run build"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.39",
+    "postcss-cli": "^11.0.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-go-template": "^0.0.15"
+  }
+}
