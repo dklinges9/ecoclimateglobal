@@ -1,6 +1,6 @@
-## 🌟 Nature in Paradise
+## 🌟 EcoClimateGlobal
 
-A hugo powered static website for Nature in Paradise
+A hugo powered static website for EcoClimateGlobal
 
 
 ### Maintainers
@@ -22,7 +22,7 @@ _Contact page_: configs/\_default/params.toml
 ### Contributing Your Changes
 
 Push changes directly to:  
-https://github.com/natureinparadise/natureinparadise.github.io/
+https://github.com/dklinges9/ecoclimateglobal/
 
 
 A few minutes after pushing changes to remote, the website should be automatically re-deployed with the new updates (if your commit didn't break anything!)  
