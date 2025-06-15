@@ -1,0 +1,46 @@
+<head>
+  <meta charset="utf-8" />
+  <title>{{ with .Title }}{{ . }}{{ else }}{{ site.Title }}{{ end }}</title>
+
+  <!-- responsive meta -->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=5" />
+
+  <!-- theme meta -->
+  <meta name="theme-name" content="natureinparadise" />
+
+  <meta
+    name="description"
+    content="{{ with .Params.Description }}
+      {{ . }}
+    {{ else }}
+      {{ with site.Params.description }}{{ . }}{{ end }}
+    {{ end }}" />
+  {{ with site.Params.author }}
+    <meta name="author" content="{{ . }}" />
+  {{ end }}
+  {{ hugo.Generator }}
+  {{ with .Params.image }}
+    <meta property="og:image" content="{{ . | absURL }}" />
+  {{ end }}
+  {{ template "_internal/opengraph.html" . }}
+  {{ template
+    "_internal/twitter_cards.html" .
+  }}
+  {{ template
+    "_internal/google_analytics.html" .
+  }}
+
+
+  <!-- favicon -->
+  {{ partialCached "favicon" . }}
+
+
+  <!-- google tag manager -->
+  {{ partialCached "gtm.html" . }}
+
+
+  <!-- opengraph and twitter card -->
+  {{ partial "basic-seo.html" . }}
+</head>

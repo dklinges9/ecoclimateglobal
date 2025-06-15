@@ -1,0 +1,22 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            {{ range site.Menus.footer }}
+              <li>
+                <a
+                  href="{{ .URL | relLangURL }}"
+                  class="block py-3 px-4 md:px-6 md:py-4 hover:underline">
+                  {{ .Name }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+        <p class="copyright">{{ site.Params.copyright | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</footer>

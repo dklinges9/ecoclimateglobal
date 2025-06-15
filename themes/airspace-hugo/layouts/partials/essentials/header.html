@@ -1,0 +1,63 @@
+<!-- Header Start -->
+<header class="container navigation">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <!-- header Nav Start -->
+        <nav class="navbar">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button
+              title="Toggle navigation"
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#navigation">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- logo -->
+            <a
+              class="navbar-brand"
+              href="{{ site.Home.RelPermalink }}"
+              aria-label="logo">
+              {{ partial "logo.html" }}
+            </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              {{ range site.Menus.main }}
+                {{ if .HasChildren }}
+                  <li class="dropdown">
+                    <a
+                      href="#"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >{{ .Name }} <span class="ion-ios-arrow-down"></span
+                    ></a>
+                    <ul class="dropdown-menu">
+                      {{ range .Children }}
+                        <li>
+                          <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                        </li>
+                      {{ end }}
+                    </ul>
+                  </li>
+                {{ else }}
+                  <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header close -->

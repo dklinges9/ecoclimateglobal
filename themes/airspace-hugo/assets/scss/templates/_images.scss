@@ -1,0 +1,56 @@
+/*=================================================================
+  Images
+==================================================================*/
+
+img[alt$=">"] {
+  width: 50%;
+  float: right;
+  padding: 10px;
+}
+
+img[alt$="<"] {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+img[alt$="< 30"] {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+img[alt$="30"] {
+  width: 30%;
+  padding: 10px;
+}
+
+img[alt$="50"] {
+  width: 50%;
+  float: center;
+  padding: 10px;
+}
+
+img[alt$="70"] {
+  width: 70%;
+  float: center;
+  padding: 10px;
+}
+
+img[alt$="90"] {
+  width: 90%;
+  float: center;
+  padding: 10px;
+}
+
+img[alt$="120"] {
+  width: 120%;
+  float: center;
+  padding: 10px;
+}
+
+img[alt$="150"] {
+  width: 150%;
+  float: center;
+  padding: 10px;
+}
