@@ -53,40 +53,84 @@ featured_service:
 <br>
 <br>
 
-_Relevant publications:_  
+_Exemplary publications:_  
 
 <br>
 
+[Klinges _et al._ 2025 _Frontiers in Ecology and the Environment_](https://onlinelibrary.wiley.com/doi/abs/10.1002/fee.2831)
+<br>
+[Klinges _et al._ 2024 _Global Ecology and Biogeography_](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13884)  
+<br>
 [Klinges and Scheffers 2021 _The American Naturalist_](https://www.journals.uchicago.edu/doi/10.1086/711873)
 <br>
 [Klinges _et al._ 2022 _Methods in Ecology and Evolution_](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13877)  
-[Klinges _et al._ 2024 _Global Ecology and Biogeography_](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13884)  
+<br>
+[De Frenne _et al._ 2025 _Methods in Ecology and Evolution_](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14476)
+<br>
+[De Frenne _et al._ 2021 _Global Change Biology_](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15569)
+<br>
+"
+
+
+
+    # featured service item loop
+    - name : "Tropical Conservation & Decision Support: Madagascar"
+      icon : "ion-leaf"
+      color : "primary-darker"
+      content : "Studying biodiverse settings such as the tropics is paramount. Yet all too often Westerners temporarily visit Majority World nations with good intentions only to extract insights without thorough engagement with local stakeholders. To combat such helicopter science, we seek to learn from our collaborators in Madagascar to center their perspectives and goals. Such partnerships have so far culminated in capacity-building workshops (e.g. data analysis for staff of Madagascar National Parks) and knowledge co-production through ecological research.
+
+<br>
+<br>
+
+![image alt=90](/images/landscape/ambalavero_hills.jpeg) 
+
+<br>
+<br>
+
+_Exemplary publications:_  
+
+<br>
+
+[Price, Randriamiharisoa, Klinges 2023 _Biological Conservation_](https://www.sciencedirect.com/science/article/pii/S0006320723004780)   
+<br>
+[Soifer, Klinges et al. 2025 _Biological Conservation_](https://biorxiv.org/cgi/content/short/2024.10.06.616891v1)
+<br>
+[Randriamiharisoa _et al._ 2024 _Discover Conservation_](https://doi.org/10.1007/s44353-024-00015-x)
+<br>
+Klinges, Lembrechts, Van de Vondel, Greenlee, Hayles-Cotton, Senior _In Revision_; [Pre-print available](https://www.biorxiv.org/content/10.1101/2024.09.13.612939v1.abstract)  
+<br>
+<br>
+"
+
+
+
+# featured service item loop
+    - name : "Climate Change x Land Use Change Interactions"
+      icon : "ion-earth"
+      color : "primary-dark"
+      content : "Organisms experience microclimates that are subject to both climate change and land use change. I develop and apply microclimate modeling approaches to provide updated maps of global microclimates, for better understanding of the interactions in atmospheric warming and land use change.
+
+<br>
+<br>
+
+![image alt=90](/images/figures/australia.gif) 
+
+<br>
+<br>
+<br>
+
+_Exemplary publications:_  
+
+<br>
+[Klinges _et al._ 2025 _Frontiers in Ecology and the Environment_](https://onlinelibrary.wiley.com/doi/abs/10.1002/fee.2831)
+<br>
+[Klinges _et al._ 2024 _Global Ecology and Biogeography_](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13884)
+<br>
+[Maclean and Klinges 2021 _Ecological Modelling_](https://www.sciencedirect.com/science/article/pii/S0304380021001265)
 <br>
 [Trew _et al._ 2024 _Nature Climate Change_](https://www.nature.com/articles/s41558-024-02031-0)   
 <br>
-[De Frenne _et al._ 2021 _Global Change Biology_](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15569)"
-      
-
-    - name : "Ecophysiology of Amphibian Communities"
-      icon : "ion-leaf"
-      color : "primary-dark"
-
-      content : "Animal physiology is a junction of an individual's traits and behavior with its environment. I integrate experimentally-derived measurements of physiological responses to climate with tools and theory on landscape ecology. I focus upon the physiology of amphibians, which are functionally diverse, and also the most threatened vertebrate clade globally. Given that amphibians are ectothermic (i.e. no external source of heat, or 'cold-blooded') they are highly sensitive to their local climatic conditions. This makes them an ideal group of organisms for thermal ecology and microclimate studies.
-
-<br>
-<br>
-
-![image alt = 120](/images/wildlife/mantella_baroni.JPG) 
-
-<br>
-<br>
-<br>
-
-_Relevant publications:_  
-<br>
-[Klinges, D.H. _et al._ Vertical and diel niches modulate thermal selection by rainforest frogs. In Press at _Proceedings of the Royal Society of London B: Biological Sciences_](10.1098/rspb.2024.1497)
-<br>
-<br>
+[Lembrechts _et al._ 2022 _Globbal Change Biology_](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.16060)  
 
 "
 
@@ -104,99 +148,60 @@ _Relevant publications:_
 
 <br>
 <br>
+<br>
+<br>
 
-_Relevant publications:_  
+_Exemplary publications:_  
 
+<br>
+[Fredston _et al._ 2025 _Trends in Ecology and Evolution_](https://www.sciencedirect.com/science/article/pii/S0169534725000874)
 <br>
 [Klinges _et al._ 2024 _Global Ecology and Biogeography_](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13884)
 <br>
-Baecher, Klinges, Evans, Fletcher, Romagosa, Scheffers _In Review_
+[Baecher, Klinges, Evans, Fletcher, Romagosa, Scheffers _In Review_](https://www.authorea.com/doi/full/10.22541/au.171248322.23946990)  
 "
 
-
-
-    # featured service item loop
-    - name : "Tropical Conservation and Capacity-Building"
+    - name : "Ecophysiology of Amphibians and Reptiles"
       icon : "ion-leaf"
       color : "primary-dark"
-      content : "It is paramount to study biodiverse settings such as tropical ecosystems. Yet all too often Western researchers temporarily visit Majority World locations with good intentions, but extract data and insights without thorough engagement with local stakeholders. To combat such helicopter science, I seek to learn from my Malagasy collaborators to center their perspectives and goals, while recognizing my privileges and biases. Such partnerships have so far culminated in capacity-building workshops (e.g. leading data management and analysis for employees of Madagascar National Parks) and knowledge co-production through ecological research.
+
+      content : "Animal physiology is a junction of an individual's traits and behavior with its environment. I integrate experimentally-derived measurements of physiological responses to climate with tools and theory on landscape ecology. I focus upon the physiology of amphibians, which are functionally diverse, and also the most threatened vertebrate clade globally. Given that amphibians are ectothermic (i.e. no external source of heat, or 'cold-blooded') they are highly sensitive to their local climatic conditions. This makes them an ideal group of organisms for thermal ecology and microclimate studies.
 
 <br>
 <br>
 
-![image alt < 300](/images/landscape/ambalavero_hills.jpeg) 
-
-<br>
-<br>
-
-_Relevant publications:_  
-
-<br>
-
-[Price, Randriamiharisoa, Klinges 2023 _Biological Conservation_](https://www.sciencedirect.com/science/article/pii/S0006320723004780)   
-<br>
-Randriamiharisoa, Klinges, Scheffers _In Revision_  
-<br>
-Klinges, Lembrechts, Van de Vondel, Greenlee, Hayles-Cotton, Senior _In Prep_; [Pre-print available](https://www.biorxiv.org/content/10.1101/2024.09.13.612939v1.abstract)  
+![image alt = 120](/images/wildlife/mantella_baroni.JPG) 
 
 <br>
 <br>
 <br>
+
+_Exemplary publications:_  
 <br>
+[Klinges, D.H. _et al._ 2024 _Proceedings of the Royal Society of London B: Biological Sciences_](https://royalsocietypublishing.org/doi/10.1098/rspb.2024.1497)
 <br>
+[Baecher, Klinges, Evans, Fletcher, Romagosa, Scheffers _In Review_](https://www.authorea.com/doi/full/10.22541/au.171248322.23946990) 
+<br>
+
 "
 
 
-# featured service item loop
-    - name : "Global Climate as Experienced by Life on Earth"
-      icon : "ion-earth"
-      color : "primary"
-      content : "Meteorological maps and models of global climate are derived from weather stations placed in flat, open locations, yet such stations do not measure the conditions that humans, crops, and biodiversity actually experience. I develop and apply microclimate modeling approaches to provide updated maps of global climate, for better understanding the variation in and rates of climate change for the planet.
-
-<br>
-<br>
-
-![image alt < 300](/images/figures/australia.gif) 
-
-<br>
-<br>
-
-_Relevant publications:_  
-
-<br>
-[Klinges _et al._ 2024 _Global Ecology and Biogeography_](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13884)
-<br>
-Klinges, Maclean, Scheffers _In Review_ ([pre-print available](https://www.biorxiv.org/content/10.1101/2023.11.20.567953v1))  
-<br>
-[Maclean and Klinges 2021 _Ecological Modelling_](https://www.sciencedirect.com/science/article/pii/S0304380021001265)
-<br>
-[Trew _et al._ 2024 _Nature Climate Change_](https://www.nature.com/articles/s41558-024-02031-0)   
-<br>
-[Lembrechts _et al._ 2022 _Globbal Change Biology_](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.16060)  
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-"
 
    # featured service item loop
     - name : "Vertitude: Animal Biogeography from Forest Floor to Canopy"
       icon : "ion-earth"
-      color : "primary-dark"
+      color : "primary"
       content : "While the biodiversity of forests is generally recognized, scientists focus our attention on the ground, neglecting the immense biological richness of understories and canopies (~80% of tropical forest species found aboveground). I explore how the underappreciated biogeographic axis of vertitude – from forest floor to canopy – shapes the thermal niches, morphology, and dispersal abilities of animals.
 
 <br>
 <br>
 
-![image alt < 300](/images/landscape/canopy.jpg) 
+![image alt=70](/images/landscape/canopy.jpg) 
 
 <br>
 <br>
 
-_Relevant publications:_  
+_Exemplary publications:_  
 
 <br>
 
@@ -204,7 +209,7 @@ _Relevant publications:_
 <br>
 [Basham, Baecher, Klinges, Scheffers 2023 _Biological Reviews_](https://onlinelibrary.wiley.com/doi/abs/10.1111/brv.12896) 
 <br>
-[Klinges, D.H. _et al._ Vertical and diel niches modulate thermal selection by rainforest frogs. In Press at _Proceedings of the Royal Society of London B: Biological Sciences_](10.1098/rspb.2024.1497)"
+[Klinges, D.H. _et al._ 2024 _Proceedings of the Royal Society of London B: Biological Sciences_](https://royalsocietypublishing.org/doi/10.1098/rspb.2024.149)"
 
 
 ################################ feature #####################################
