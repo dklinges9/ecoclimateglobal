@@ -1,0 +1,71 @@
+/*=================================================================
+  Buttons
+==================================================================*/
+
+summary.button-abstract-style {
+  display: inline-block;
+  padding: 8px 8px;
+  background-color: #02b079;
+  color: white;
+  font-weight: bold;
+  border: #030303;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: fit-content;
+  list-style: none;
+  position: relative;
+}
+
+summary.button-abstract-style::marker {
+  display: none;
+}
+
+
+summary.button-abstract-style::before {
+  content: "🔽"; /* Change icon here */
+  margin-right: 8px;
+}
+
+
+
+
+
+.external-pdf-button {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  background-color: #c94a00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.external-pdf-button:hover {
+  background-color: #b04202;
+}
+
+
+
+
+
+.external-url-button {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  background-color: #007acc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.external-url-button:hover {
+  background-color: #005fa3;
+}
+
