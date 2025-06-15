@@ -4,8 +4,8 @@ banner:
   enable : true
   bg_image : "images/landscape/canopy_understory.JPG"
   bg_overlay: true
-  title : "NATURE .IN .PARADISE"
-  content : "Research, Multimedia, and Outreach by Dave Klinges"
+  title : "ECO.CLIMATE"
+  content : "Research, Education, Multimedia, and Outreach by the Klinges Lab"
   button:
     enable : true
     label : "Learn more about Dave"

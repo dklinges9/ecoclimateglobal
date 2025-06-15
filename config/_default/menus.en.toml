@@ -53,10 +53,10 @@ URL = "data_software"
 name = "Multimedia"
 URL = "project"
 weight = 9
-  
+
 [[main]]
-name = "Contact"
-URL = "contact"
+name = "Join Us!"
+URL = "join"
 weight = 10
 
 # footer menu

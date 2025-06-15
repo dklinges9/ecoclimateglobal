@@ -1,21 +1,119 @@
 ---
 title: "Publications"
-description: "2017 - 2024"
+description: "2017 - 2025"
 subtitle: ""
-lastmod: 2024-06-15T00:00:00
+lastmod: 2025-06-15T00:00:00
 bg_image: "images/landscape/patagonia_torres2_banner.JPG"
 layout: "faq"
 draft: false
 ---
 
-### Publications
+## Summary
 
-_H-index: 10; Total Citations: 940; Google Scholar. +Undergraduate mentee; \*Corresponding/senior author_
+H-index: 13; Total Citations: 1835; [Google Scholar](https://scholar.google.com/citations?hl=en&user=i9pmQasAAAAJ&view_op=list_works)  
+_*Corresponding/senior author; +Undergraduate mentee_
 
-(21) Klinges, D.H.\*, Maclean, I.M.D, Scheffers, B.R. Re-drawing Köppen-Geiger classes using microclimate impacts agriculture, the environment and society. In Press at Frontiers in Ecology and the Environment [Preprint available](https://www.biorxiv.org/content/10.1101/2023.11.20.567953v1)  
-• Predicted Köppen-Geiger climate class from microclimate globally to show that conventional macroclimate classes are misguided (e.g. “tropical” classes at 50 degrees latitude).
+<br>
+<br>
 
-(20) Klinges, D.H.\* Microclimate regulates when autumn leaves fall. Nature Climate Change, 1-2, DOI: [10.1038/s41558-024-02154-4](https://www.nature.com/articles/s41558-024-02154-4) _Invited perspective_
+### 2025
+
+
+
+(21) **Klinges, D.H.\***, Maclean, I.M.D, Scheffers, B.R.  
+Re-drawing Köppen-Geiger classes using microclimate impacts agriculture, the environment and society.  
+_Frontiers in Ecology and the Environment_
+
+
+
+<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+
+<details>
+  <summary class="button-abstract-style">Abstract</summary>
+  <p>Scientists have long categorized the planet’s climate using the Köppen-Geiger (KG) classification to research climate-change impacts, biogeographical realms, agricultural suitability, and conservation. However, global KG maps primarily rely on macroclimate data collected by weather stations, which may not represent microclimatic conditions experienced by most life on Earth. Few studies have explored microclimate at broad scales, largely due to data and computational constraints. Here, we predicted KG classes separately from macroclimate and microclimate for more than 32 million locations across six continents. As compared to macroclimate, microclimate had 14-fold lower error and reclassified 38% of the total area. Microclimate-derived KG classes were not only more spatially variable but also encompassed a broader range of latitudes, relative to macroclimate-derived KG classes. By redrawing the lines of climate classes, our study prompts a reevaluation of the importance of meteorological drivers of ecology across scales, shedding light on how natural, agricultural, and social systems experience and respond to global change.</p>
+</details>
+
+
+<a class="external-url-button" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/fee.2831" target="_blank" rel="noopener noreferrer">
+  🔗 Link
+</a>
+
+
+<a class="external-pdf-button" href="/docs/papers/Klinges_FEE_2025.pdf" target="_blank" rel="noopener noreferrer">
+  📄 PDF
+</a>
+
+
+</div>
+
+
+<br>
+<br>
+
+
+
+
+(21) **Klinges, D.H.\***,  Martin, C. W., & Roberts, B. J.   
+Ecological associations of the coastal marsh periwinkle snail Littoraria irrorata: Field and laboratory evidence of vegetation habitat preferences.  
+_PeerJ_
+
+
+
+<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+
+<details>
+  <summary class="button-abstract-style">Abstract</summary>
+  <p></p>
+</details>
+
+
+<a class="external-url-button" href="https://peerj.com/articles/19071" target="_blank" rel="noopener noreferrer">
+  🔗 Link
+</a>
+
+
+<a class="external-pdf-button" href="/docs/papers/Klinges_PeerJ_2025.pdf" target="_blank" rel="noopener noreferrer">
+  📄 PDF
+</a>
+
+
+</div>
+
+
+<br>
+<br>
+
+
+
+### 2024
+
+(20) **Klinges, D.H.\***  
+Microclimate regulates when autumn leaves fall.  
+_Nature Climate Change, Invited perspective_
+
+
+<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+
+<details>
+  <summary class="button-abstract-style">Abstract</summary>
+  <p>Climate influences when leaves change colour and fall, but not all trees lose their leaves at the same time. Combining field data, mathematical models and remote sensing, researchers show how local-scale variation in tree canopies and understory temperatures alters the start and duration of autumn leaf colouration and forecast reduced autumn delays under climate change.</p>
+</details>
+
+
+<a class="external-url-button" href="https://www.nature.com/articles/s41558-024-02154-4" target="_blank" rel="noopener noreferrer">
+  🔗 Link
+</a>
+
+
+<a class="external-pdf-button" href="/docs/papers/Klinges_NCC_2024.pdf" target="_blank" rel="noopener">
+  📄 PDF
+</a>
+
+
+</div>
+
+<br>
+<br>
 
 (19) Klinges, D.H.\*, Randriambololona, T., Lange, Z., Laterza-Barbosa, J., Randrianandrasana, H., Scheffers, B.R. Vertical and diel niches modulate thermal selection by rainforest frogs. In Press at Proceedings of the Royal Society of London B: Biological Sciences DOI: 10.1098/rspb.2024.1497
 
