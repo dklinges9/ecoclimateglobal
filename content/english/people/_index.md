@@ -21,23 +21,13 @@ featured_service:
     # featured service item loop
     - name : "Dr. Brett Scheffers"
       color : "primary"
-      content : "Dr. Scheffers is an Associate Professor in the Department of Wildife Ecology and Conservation, and served as my PhD advisor (2019 - 2024). [Website](https://www.schefferslab.com/)  
+      content : "Dr. Scheffers is an Associate Professor in the Dept. of Wildife Ecology and Conservation, and served as my PhD advisor (2019 - 2024). [Website](https://www.schefferslab.com/)  
 
 <br>
 <br>
 
-![image alt < 300](/images/people/brett_scheffers_small.png)
+![image alt=60](/images/people/brett_scheffers_small.png)
 
-<br>
-<br>
-
-_Core Collaborations:_  
-
-<br>
-
-[Klinges et al. 2021 _The American Naturalist_](https://www.journals.uchicago.edu/doi/10.1086/711873)  
-<br>
-[Klinges et al. 2024 _Global Ecology and Biogeography_](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13884)  
 "
       
     # featured service item loop
@@ -48,21 +38,7 @@ _Core Collaborations:_
 <br>
 <br>
 
-![image alt < 300](/images/people/david_skelly.png) 
-
-<br>
-<br>
-
-_Collaborations:_  
-
-<br>
-<br>
-
-_In prep!_  
-<br>
-<br>
-<br>
-<br>
+![image alt=80](/images/people/david_skelly.png) 
 
 "
 
@@ -74,19 +50,10 @@ _In prep!_
 <br>
 <br>
 
-![image alt < 300](/images/people/lalatiana_randriamiharisoa.jpg) 
+![image alt=90](/images/people/lalatiana_randriamiharisoa.jpg) 
 
 <br>
 <br>
-
-_Collaborations:_  
-
-<br>
-<br>
-
-[Price et al. 2023 _Biological Conservation_](https://www.sciencedirect.com/science/article/pii/S0006320723004780)  
-<br>
-Randriamiharisoa, Klinges, Scheffers _In Review_  
 "
 
 
@@ -100,14 +67,6 @@ Randriamiharisoa, Klinges, Scheffers _In Review_
 
 ![image alt < 300](/images/people/fiona_price.jpg) 
 
-
-_Collaborations:_  
-
-<br>
-<br>
-
-[Price, Randriamiharisoa, Klinges 2023 _Biological Conservation_](https://www.sciencedirect.com/science/article/pii/S0006320723004780)  
-<br>
 "
 
 # Mikoja
@@ -118,37 +77,22 @@ _Collaborations:_
 <br>
 <br>
 
-![image alt < 300](/images/people/mikoja_rambinintsoa.png) 
+![image alt=120](/images/people/mikoja_rambinintsoa.png) 
 
-
-_Collaborations:_  
-
-<br>
-<br>
-
- Rambinintsoa, Ratsirarson, Klinges, _in prep_
-<br>
 "
 
 
 # Herizo
     - name : "Herizo Randrianandrasana"
       color : "primary-dark"
-      content : "Herizo completed his Masters in Zoology at the University of Fianarantsoa, and is now a Research Project Manager at Health in Harmony. He is a collaborator on amphibian thermal and landscaope ecology work.
+      content : "Herizo completed his Masters in Zoology at the University of Fianarantsoa, and is now a Research Project Manager at Health in Harmony. He is a collaborator on amphibian thermal and landscape ecology work.
 
 <br>
 <br>
 
-![image alt < 300](/images/people/herizo_randrianandrasana.jpg) 
+![image alt=90](/images/people/herizo_randrianandrasana.jpg) 
 
 
-_Collaborations:_  
-
-<br>
-<br>
-
- Klinges, Lange, Laterza-Barbosa, Randrianandrasana, Scheffers _in review_
-<br>
 "
 
 
