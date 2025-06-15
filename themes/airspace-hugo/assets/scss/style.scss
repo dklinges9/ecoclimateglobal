@@ -62,6 +62,8 @@ $font-primary: '{{ replace (replaceRE ":[ital,]*[ital@]*[wght@]*[0-9,;]+" "" .fo
 
 @import 'templates/_blog.scss';
 
+@import 'templates/_buttons.scss';
+
 @import 'templates/_coming-soon.scss';
 
 @import 'templates/_shopping.scss';
