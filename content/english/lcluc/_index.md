@@ -1,6 +1,6 @@
 ---
 title: "Land Use/Land Cover Change"
-description: "this is meta description"
+description: "Research, Education, Outreach"
 subtitle: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, repudiandae."
 date: 2019-12-23T13:05:29+06:00
 draft: false

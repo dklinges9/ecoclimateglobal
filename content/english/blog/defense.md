@@ -6,7 +6,7 @@ image: "images/research/klinges_defense2.jpg"
 bg_image: "images/featue-bg.jpg"
 categories: [Research]
 tags: [UF]
-description: "this is meta description"
+description: ""
 draft: false
 type: "post"
 ---

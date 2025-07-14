@@ -52,6 +52,7 @@ featured_service:
 
 <br>
 <br>
+<br>
 
 _Exemplary publications:_  
 
@@ -69,6 +70,7 @@ _Exemplary publications:_
 <br>
 [De Frenne _et al._ 2021 _Global Change Biology_](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15569)
 <br>
+
 "
 
 
@@ -82,9 +84,8 @@ _Exemplary publications:_
 <br>
 <br>
 
-![image alt=90](/images/landscape/ambalavero_hills.jpeg) 
+![image alt=95](/images/landscape/ambalavero_hills.jpeg) 
 
-<br>
 <br>
 
 _Exemplary publications:_  
@@ -98,8 +99,7 @@ _Exemplary publications:_
 [Randriamiharisoa _et al._ 2024 _Discover Conservation_](https://doi.org/10.1007/s44353-024-00015-x)
 <br>
 Klinges, Lembrechts, Van de Vondel, Greenlee, Hayles-Cotton, Senior _In Revision_; [Pre-print available](https://www.biorxiv.org/content/10.1101/2024.09.13.612939v1.abstract)  
-<br>
-<br>
+
 "
 
 
@@ -182,7 +182,6 @@ _Exemplary publications:_
 <br>
 [Baecher, Klinges, Evans, Fletcher, Romagosa, Scheffers _In Review_](https://www.authorea.com/doi/full/10.22541/au.171248322.23946990) 
 <br>
-
 "
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Collaborators"
+title: "EcoClimate Members"
 description: ""
 draft: false
 layout: "service"
@@ -18,44 +18,17 @@ about:
 featured_service:
   enable : true
   service_item:
-    # featured service item loop
-    - name : "Dr. Brett Scheffers"
+
+    # Dave Klinges
+    - name : "Dr. Dave Klinges"
       color : "primary"
-      content : "Dr. Scheffers is an Associate Professor in the Dept. of Wildife Ecology and Conservation, and served as my PhD advisor (2019 - 2024). [Website](https://www.schefferslab.com/)  
+      content : "Dave is the Principal Investigator of the EcoClimate Group. He is currently a Postdoctoral Associate at Yale University and an incoming Assistant Professor at Rutgers University. See [here](/about/) for more.  
 
 <br>
 <br>
 
-![image alt=60](/images/people/brett_scheffers_small.png)
-
+![image alt=79](/images/people/nature_dave/2022BrettScheffersLab0041_cropped.jpg)
 "
-      
-    # featured service item loop
-    - name : "Dr. David Skelly"
-      color : "primary-dark"
-      content : "Dr. Skelly is a Professor of Biology and Directory of the Peabody History Museum and Yale University. [Website](https://campuspress.yale.edu/skellylab/)
-
-<br>
-<br>
-
-![image alt=80](/images/people/david_skelly.png) 
-
-"
-
-    # featured service item loop
-    - name : "Dr. Lalatiana Randriamiharisoa"
-      color : "primary-darker"
-      content : "Dr. Randriamiharisoa is the Director of Conservation and Research at Madagascar National Parks.
-
-<br>
-<br>
-
-![image alt=90](/images/people/lalatiana_randriamiharisoa.jpg) 
-
-<br>
-<br>
-"
-
 
     # featured service item loop
     - name : "Fiona Price"
@@ -65,19 +38,19 @@ featured_service:
 <br>
 <br>
 
-![image alt < 300](/images/people/fiona_price.jpg) 
+![image alt=91](/images/people/fiona_price.jpg) 
 
 "
 
 # Mikoja
     - name : "Mikoja Rambinintsoa"
-      color : "primary"
+      color : "primary-dark"
       content : "Mikoja completed her Masters with ESSA at the University of Antananarivo, through which she now is pursuing her PhD. We have collaborated on her work exploring the impacts of climate change on radiated tortoises, _Astrochelys radiata._  
 
 <br>
 <br>
 
-![image alt=120](/images/people/mikoja_rambinintsoa.png) 
+![image alt=80](/images/people/mikoja_rambinintsoa.png) 
 
 "
 
@@ -95,6 +68,78 @@ featured_service:
 
 "
 
+
+# Aina
+    - name : "Tsitohaina Randriambololona"
+      color : "primary"
+      content : "Aina was a core team member and leader within our group from 2019 - 2022, directing many in-country operations in Madagascar especially pertaining to amphibian ecology and multimedia. He sadly passed away at an early age due to a sudden bout of malaria. Please consider supporting the [Randriambololona Memorial Fellowship](https://www.gofundme.com/f/aina-madagascar-film-fellowship), which supports Malagasy students for training in [wildlife filmmaking](https://www.madagascarfilmandphotography.com/scholarship-program). 
+
+
+<br>
+<br>
+
+![alt=115](/images/people/aina.jpeg) 
+
+
+"
+
+
+# New member
+    - name : "You?"
+      color : "primary-darker"
+      content : "Interested in joining the group? See [here](/join) for more information about current opportunities. 
+
+
+<br>
+<br>
+<br>
+
+![alt=70](/images/people/woman_silhouette.png) 
+
+
+<br>
+<br>
+
+"
+
+
+#     # featured service item loop
+#     - name : "Dr. Brett Scheffers"
+#       color : "primary"
+#       content : "Dr. Scheffers is an Associate Professor in the Dept. of Wildife Ecology and Conservation, and served as my PhD advisor (2019 - 2024). [Website](https://www.schefferslab.com/)  
+# 
+# <br>
+# <br>
+# 
+# ![image alt=60](/images/people/brett_scheffers_small.png)
+# 
+# "
+#       
+#     # featured service item loop
+#     - name : "Dr. David Skelly"
+#       color : "primary-dark"
+#       content : "Dr. Skelly is a Professor of Biology and Directory of the Peabody History Museum and Yale University. [Website](https://campuspress.yale.edu/skellylab/)
+# 
+# <br>
+# <br>
+# 
+# ![image alt=80](/images/people/david_skelly.png) 
+# 
+# "
+# 
+#     # featured service item loop
+#     - name : "Dr. Lalatiana Randriamiharisoa"
+#       color : "primary-darker"
+#       content : "Dr. Randriamiharisoa is the Director of Conservation and Research at Madagascar National Parks.
+# 
+# <br>
+# <br>
+# 
+# ![image alt=90](/images/people/lalatiana_randriamiharisoa.jpg) 
+# 
+# <br>
+# <br>
+# "
 
 ############################# call to action #################################
 cta:
