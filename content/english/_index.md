@@ -54,7 +54,7 @@ funfacts:
     # funfacts item loop
     - icon : "ion-ios-paper-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Lab Research Papers Published"
-      count : "22"
+      count : "25"
       
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/

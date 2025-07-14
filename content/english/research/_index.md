@@ -48,9 +48,8 @@ featured_service:
 <br>
 <br>
 
-![image alt = 90](/images/figures/defrenne_2021_fig3.png) 
+![image alt = 88](/images/figures/defrenne_2021_fig3.png) 
 
-<br>
 <br>
 <br>
 
@@ -69,7 +68,6 @@ _Exemplary publications:_
 [De Frenne _et al._ 2025 _Methods in Ecology and Evolution_](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14476)
 <br>
 [De Frenne _et al._ 2021 _Global Change Biology_](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15569)
-<br>
 
 "
 
@@ -84,8 +82,9 @@ _Exemplary publications:_
 <br>
 <br>
 
-![image alt=95](/images/landscape/ambalavero_hills.jpeg) 
+![](/images/landscape/ambalavero_hills.jpeg) 
 
+<br>
 <br>
 
 _Exemplary publications:_  
