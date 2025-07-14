@@ -5,7 +5,7 @@ banner:
   bg_image : "images/landscape/canopy_understory.JPG"
   bg_overlay: true
   title : "ECO.CLIMATE"
-  content : "Research, Education, Multimedia, and Outreach by the Klinges Lab"
+  content : "Research, Education, Multimedia, and Outreach by the Klinges Lab at Rutgers University"
   button:
     enable : true
     label : "Learn more about Dave"
@@ -14,8 +14,8 @@ banner:
 ############################# About #################################
 about:
   enable : true
-  title : "[Thermal Ecology meets Landscape Ecology](/research)"
-  description : "Translating Global Change Processes into physicological impacts for organisms, species, and communities"
+  title : "[Intersection of Ecology, Climate, and Computation](/research)"
+  description : "Translating Global Change Processes into Physicological impacts for Organisms, Species, and Communities"
   content : "Despite hundreds of years of observational, experimental, and (more recently) computational work, we still have much to learn about our environment on Earth. To uncover and disseminate this endless knowledge is critical given the state of anthropogenic global change, as the immense biodiversity and undomesticated landscapes that are the source of natural beauty are imperiled. Our group integrates field data collection, experiments, and mathematical models to disentangle how biodiversity responds to global change."
 
   button:
@@ -50,25 +50,26 @@ funfacts:
   description : "A handful of updates on what's been going on"
 
   funfact_item:
-    # funfacts item loop
-    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Cups Of Coffee"
-      count : "99"
       
     # funfacts item loop
-    - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Articles Written"
-      count : "45"
+    - icon : "ion-ios-paper-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Lab Research Papers Published"
+      count : "22"
       
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Projects Completed"
-      count : "125"
+      count : "8"
       
     # funfacts item loop
-    - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Combined Projects"
-      count : "200"
+    - icon : "ion-earth" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Lab Research Locations"
+      count : "11"
+
+    # funfacts item loop
+    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Cups Of Coffee"
+      count : "99"
 
   testimonial_slider:
     # testimonial item loop

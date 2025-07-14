@@ -4,10 +4,10 @@ logo = "images/tree_code_circle.png"
 logo_width = "100px"
 # OpenGraph / Twitter Card metadata
 title = "Nature.In.Paradise"
-description = "This is meta description"
+description = "Research, Education, Outreach"
 author = "Dave Klinges"
 images = [ "images/tree_code_circle.png" ] # First image here will be used as fallback if a page has no images of its own
-copyright = "Copyright &copy; 2024 David Klinges and [Themefisher](https://themefisher.com). All Rights Reserved."
+copyright = "Copyright &copy; 2025 David Klinges and [Themefisher](https://themefisher.com). All Rights Reserved."
 # search
 [search]
 enable = true
@@ -75,7 +75,7 @@ link = "https://www.linkedin.com/in/david-klinges-944551111/"
 
 [[social]]
 icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "https://twitter.com/thenaturedave"
+link = "https://bsky.app/profile/thenaturedave.bsky.social"
 
 [[social]]
 icon = "ion-social-instagram-outline" #ionicon pack v2 : https://ionicons.com/v2/
