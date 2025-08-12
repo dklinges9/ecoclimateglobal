@@ -3,10 +3,37 @@
 ==================================================================*/
 
 img[alt$=">"] {
+  width: 500%;
+  float: right;
+  padding: 10px;
+}
+
+img[alt$=">10"] {
+  width: 10%;
+  float: right;
+  padding: 10px;
+}
+
+img[alt$=">30"] {
+  width: 30%;
+  float: right;
+  padding: 10px;
+}
+
+img[alt$=">40"] {
+  width: 40%;
+  float: right;
+  padding: 10px;
+}
+
+
+img[alt$=">50"] {
   width: 50%;
   float: right;
   padding: 10px;
 }
+
+
 
 img[alt$="<"] {
   width: 50%;
@@ -14,7 +41,19 @@ img[alt$="<"] {
   padding: 10px;
 }
 
-img[alt$="< 30"] {
+img[alt$="<30"] {
+  width: 30%;
+  float: left;
+  padding: 10px;
+}
+
+img[alt$="<40"] {
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+
+img[alt$="<50"] {
   width: 50%;
   float: left;
   padding: 10px;
@@ -43,11 +82,29 @@ img[alt$="60"] {
   padding: 10px;
 }
 
+img[alt$="65"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  float: center;
+  padding: 10px;
+}
+
 img[alt$="70"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  float: center;
+  padding: 10px;
+}
+
+img[alt$="71"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 71%;
   float: center;
   padding: 10px;
 }
@@ -85,6 +142,24 @@ img[alt$="82"] {
   margin-left: auto;
   margin-right: auto;
   width: 82%;
+  float: center;
+  padding: 10px;
+}
+
+img[alt$="85"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  float: center;
+  padding: 10px;
+}
+
+img[alt$="86"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 86%;
   float: center;
   padding: 10px;
 }
