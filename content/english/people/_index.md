@@ -69,7 +69,7 @@ featured_service:
 <br>
 <br>
 
-![image alt=65](/images/people/herizo_randrianandrasana.jpg) 
+![image alt=73](/images/people/herizo_randrianandrasana.jpg) 
 
 
 "

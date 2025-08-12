@@ -48,7 +48,7 @@ featured_service:
 <br>
 <br>
 
-![image alt = 88](/images/figures/defrenne_2021_fig3.png) 
+![image alt = 89](/images/figures/defrenne_2021_fig3.png) 
 
 <br>
 <br>
@@ -99,6 +99,9 @@ _Exemplary publications:_
 <br>
 [Klinges _et al._ 2025 _Ecological Informatics_](https://www.sciencedirect.com/science/article/pii/S1574954125003851)  
 
+<br>
+<br>
+
 "
 
 
@@ -128,6 +131,10 @@ _Exemplary publications:_
 [Trew _et al._ 2024 _Nature Climate Change_](https://www.nature.com/articles/s41558-024-02031-0)   
 <br>
 [Lembrechts _et al._ 2022 _Globbal Change Biology_](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.16060)
+
+<br>
+<br>
+<br>
 "
 
     - name : "Species on the Move in Space and Time"
@@ -140,10 +147,8 @@ _Exemplary publications:_
 <br>
 <br>
 
-![image alt = 120](/images/research/range_shifts_africa.png) 
+![image alt = 90](/images/research/range_shifts_africa.png) 
 
-<br>
-<br>
 <br>
 <br>
 
@@ -193,7 +198,7 @@ _Exemplary publications:_
 <br>
 <br>
 
-![image alt=70](/images/landscape/canopy.jpg) 
+![image alt=65](/images/landscape/canopy.jpg) 
 
 <br>
 <br>
