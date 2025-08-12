@@ -2,7 +2,7 @@
 title: "Publications"
 description: "2017 - 2025"
 subtitle: ""
-lastmod: 2025-06-15T00:00:00
+lastmod: 2025-08-12T00:00:00
 bg_image: "images/landscape/patagonia_torres2_banner.JPG"
 layout: "faq"
 draft: false
@@ -10,7 +10,7 @@ draft: false
 
 ## Summary
 
-H-index: 13; Total Citations: 1835; [Google Scholar](https://scholar.google.com/citations?hl=en&user=i9pmQasAAAAJ&view_op=list_works)  
+H-index: 14; Total Citations: 1982; [Google Scholar](https://scholar.google.com/citations?hl=en&user=i9pmQasAAAAJ&view_op=list_works)  
 _\*Corresponding/senior author; +Undergraduate mentee_
 
 <br>
@@ -18,7 +18,52 @@ _\*Corresponding/senior author; +Undergraduate mentee_
 
 ### 2025
 
-(25) Soifer, L., **Klinges, D.H.\***, Randriamiharisoa, L., Scheffers, B.R.  
+(28) **Klinges, D.H.**, Lembrechts, J.J., Van de Vondel, S., Greenlee, E., Hayles-Cotton, K., Senior, R. Extreme events drive rapid and dynamic range fluctuations. _Ecological Informatics_
+
+<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+
+<details>
+  <summary class="button-abstract-style">Abstract</summary>
+  <p>Wireless environmental sensors have become integral tools in environmental and conservation research, offeringdiverse data streams that complement traditional inventory-based surveys. Despite advancements in sensortechnology, the ad hoc nature of site selection for sensor deployment often limits the potential of collected data.Here, we argue for the importance of informed site selection to capture environmental variation effectively. Weintroduce a comprehensive step-by-step practical guide for environmental sensor site selection and networkdeployment, drawing on experiences from diverse geographic locations and focusing specifically on microclimatesensors as a representative environmental variable. The workflow integrates Geographic Information Systems(GIS) tools, local community-based knowledge, and statistical methods to provide adaptive and iterativeguidelines for both new and expanded sensor deployments. We demonstrate how the workflow facilitatedresearch across three distinct settings: measuring heat waves in urban and rural gardens in Belgium, informingplant conservation in arid montane deserts in Oman, and monitoring amphibian distributions in humid forestedlandscapes in Madagascar. To facilitate the workflow’s implementation and reproducibility worldwide, weprovide a modular software supplement with flexible user input for robust, data-driven and interactive site se-lection. Critically, our workflow underscores the importance of equitable collaboration with local stakeholders,addresses challenges in sensor deployment, and offers a practical tool to enhance the effectiveness and efficiencyof environmental sensing across disciplines including ecology, meteorology, agriculture, and landscape design.</p>
+</details>
+
+<a class="external-url-button" href="https://www.sciencedirect.com/science/article/pii/S1574954125003851" target="_blank" rel="noopener noreferrer">
+  🔗 Link
+</a>
+
+<a class="external-pdf-button" href="/docs/papers/Klinges_EcoInfo_2025.pdf" target="_blank" rel="noopener noreferrer">
+  📄 PDF
+</a>
+
+</div>
+
+<br>
+<br>
+
+(27) Soifer, L., Lockwood, J. L., Lembrechts, J. J., Antão, L. H., **Klinges, D.H.**, Senior, R. A., Ban, N. C., Evengard, B., Fadrique, B., Falkeis, S., Fredston, A. L., Guralnick, R., Lenoir, J., Neate-Clegg, M. H. C., Palacios-Abrantes, J., Pecl, G., Pinsky, M. L., Smith, J. E., Stys, B., Tingley, M. W., Scheffers, B. R. Extreme events drive rapid and dynamic range fluctuations.
+_Trends in Ecology and Evolution_
+
+<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+
+<details>
+  <summary class="button-abstract-style">Abstract</summary>
+  <p>Climate change is altering species’ distributions globally. Increasing frequency ofextreme weather and climate events (EWCEs) is one of the hallmarks of climatechange. Despite species redistribution being widely studied in response to long-term climatic trends, the contribution of EWCEs to range shifts is not well under-stood. We outline how EWCEs can trigger rapid and unexpected range boundaryfluctuations by impacting dispersal, establishment, and survival. Whether thesemechanisms cause temporary or persistent range shifts depends on the spatio-temporal context and exposure to EWCEs. Using the increasing availability ofdata and statistical tools to examine EWCE impacts at fine spatiotemporal resolu-tions on species redistribution will be critical for informing conservation manage-ment of ecologically, economically, and culturally important species.</p>
+</details>
+
+<a class="external-url-button" href="https://www.sciencedirect.com/science/article/pii/S0169534725001776" target="_blank" rel="noopener noreferrer">
+  🔗 Link
+</a>
+
+<a class="external-pdf-button" href="/docs/papers/Soifer_TREE_2025.pdf" target="_blank" rel="noopener noreferrer">
+  📄 PDF
+</a>
+
+</div>
+
+<br>
+<br>
+
+(26) Soifer, L., **Klinges, D.H.\***, Randriamiharisoa, L., Scheffers, B.R.  
 Quantifying the values of community-based biodiversity monitoring in Madagascar using structured-decision analysis.
 _Biological Conservation_
 
@@ -44,7 +89,7 @@ benefits of community monitoring regardless of the conservation philosophy used 
 <br>
 <br>
 
-(24) Fredston, A.L., Tingley, M.W., Neate-Clegg, M.H.C., Evans, L.J., Antão, L.H., Ban, N.C., Chen, I.C., Chen, Y.W., Comte, L., Edwards, D.P., Evengard, B., Fadrique, B., Falkeis, S.H., Guralnick, R., **Klinges, D.H.,** Lembrechts, J.J., Lenoir, J., Palacios-Abrantes, J., Pauchard, A., Pecl, G., Pinsky, M.L., Senior, R.A., Smith, J.E., Soifer, L.D., Sunday, J.M., Tape, K.D., Washam, P., Scheffers, B.R.  
+(25) Fredston, A.L., Tingley, M.W., Neate-Clegg, M.H.C., Evans, L.J., Antão, L.H., Ban, N.C., Chen, I.C., Chen, Y.W., Comte, L., Edwards, D.P., Evengard, B., Fadrique, B., Falkeis, S.H., Guralnick, R., **Klinges, D.H.,** Lembrechts, J.J., Lenoir, J., Palacios-Abrantes, J., Pauchard, A., Pecl, G., Pinsky, M.L., Senior, R.A., Smith, J.E., Soifer, L.D., Sunday, J.M., Tape, K.D., Washam, P., Scheffers, B.R.  
 Reimagining species on the move across space and time.  
 _Frontiers in Ecology and the Environment_
 
@@ -68,7 +113,7 @@ _Frontiers in Ecology and the Environment_
 <br>
 <br>
 
-(23) **Klinges, D.H.\***, Martin, C. W., & Roberts, B. J.  
+(24) **Klinges, D.H.\***, Martin, C. W., & Roberts, B. J.  
 Ecological associations of the coastal marsh periwinkle snail Littoraria irrorata: Field and laboratory evidence of vegetation habitat preferences.  
 _PeerJ_
 
@@ -92,7 +137,7 @@ _PeerJ_
 <br>
 <br>
 
-(22) **Klinges, D.H.\***, Maclean, I.M.D, Scheffers, B.R.  
+(23) **Klinges, D.H.\***, Maclean, I.M.D, Scheffers, B.R.  
 Re-drawing Köppen-Geiger classes using microclimate impacts agriculture, the environment and society.  
 _Frontiers in Ecology and the Environment_
 
@@ -118,7 +163,7 @@ _Frontiers in Ecology and the Environment_
 
 ### 2024
 
-(21) **Klinges, D.H.\***  
+(22) **Klinges, D.H.\***  
 Microclimate regulates when autumn leaves fall.  
 _Nature Climate Change, Invited perspective_
 
@@ -142,7 +187,7 @@ _Nature Climate Change, Invited perspective_
 <br>
 <br>
 
-(20) **Klinges, D.H.\***, Randriambololona, T., Lange, Z., Laterza-Barbosa, J., Randrianandrasana, H., Scheffers, B.R.
+(21) **Klinges, D.H.\***, Randriambololona, T., Lange, Z., Laterza-Barbosa, J., Randrianandrasana, H., Scheffers, B.R.
 
 Vertical and diel niches modulate thermal selection by rainforest frogs.  
 _Proceedings of the Royal Society of London B: Biological Sciences_
@@ -167,7 +212,7 @@ _Proceedings of the Royal Society of London B: Biological Sciences_
 <br>
 <br>
 
-(19) **Klinges, D.H.\***, Baecher, J.A., Lembrechts, J.J., Maclean, I.M.D., Lenoir, J., Greiser, C., Ashcroft, M., Evans, L.J…. Scheffers, B.R. 30 total co-authors.  
+(20) **Klinges, D.H.\***, Baecher, J.A., Lembrechts, J.J., Maclean, I.M.D., Lenoir, J., Greiser, C., Ashcroft, M., Evans, L.J…. Scheffers, B.R. 30 total co-authors.  
 Proximal microclimate: Moving beyond spatiotemporal resolution improves ecological predictions  
 _Global Ecology and Biogeography, 33, e13884_
 
@@ -191,7 +236,7 @@ _Global Ecology and Biogeography, 33, e13884_
 <br>
 <br>
 
-(18) De Frenne, P., Beugnon, R., **Klinges, D.H.**, Lenoir, J.…et al., 26 total co-authors.  
+(19) De Frenne, P., Beugnon, R., **Klinges, D.H.**, Lenoir, J.…et al., 26 total co-authors.  
 Ten practical guidelines for microclimate monitoring in terrestrial ecosystems.  
 _Methods in Ecology and the Environment_
 
@@ -219,7 +264,7 @@ _Methods in Ecology and the Environment_
 <br>
 <br>
 
-(17) Trew, B.T., Edwards, D.P., Lees, A.C., **Klinges, D.H.**, Early, R., Svátek, M., Plichta, R., Matula, R., Okello, J., Niessner, A., Barthel, M., Six, J., Maclean, I. M. D.  
+(18) Trew, B.T., Edwards, D.P., Lees, A.C., **Klinges, D.H.**, Early, R., Svátek, M., Plichta, R., Matula, R., Okello, J., Niessner, A., Barthel, M., Six, J., Maclean, I. M. D.  
 Novel climates are already widespread beneath the world’s tropical forest canopies.  
 _Nature Climate Change_
 
@@ -235,6 +280,30 @@ _Nature Climate Change_
 </a>
 
 <a class="external-pdf-button" href="/docs/papers/Trew_NCC_2024.pdf" target="_blank" rel="noopener">
+  📄 PDF
+</a>
+
+</div>
+
+<br>
+<br>
+
+(17) Randriamiharisoa, L., **Klinges, D.H.\***, Razafindranaivo, S., Scheffers, B.R.  
+Community-sourced knowledge improves biodiversity monitoring in Madagascar’s National Parks
+_Discover Conservation_
+
+<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+
+<details>
+  <summary class="button-abstract-style">Abstract</summary>
+  <p>Local community members can contribute to biodiversity conservation, especially for rural yet critically biodiverse locations such as in Southern Madagascar. While collaborations with local communities were initiated by Madagascar National Parks (MNP) in 1996 to build local support for protected area management, such community-based approaches to monitoring biodiversity were underdeveloped, and to date their efficacy has not been studied. The objective of our study was to develop community-based monitoring of vertebrate biodiversity within six protected areas in Madagascar, and to assess whether the data recorded by local communities can be used for the monitoring of protected areas spanning dry to wet tropical rainforest ecosystems. We implemented a training program for each local community and validated community observations via surveys performed by professional scientists with taxonomic expertise. Across two years of surveys and six protected areas, scientists observed more species per survey (9.04) than community members (6.09). Yet collectively, community members observed more species (373) than scientists (354). Furthermore via multivariate modeling, we found that whether a biodiversity monitoring team was composed of scientists or community members had a non-significant effect on the number of species observed, which was more sensitive to the vegetation and climate of a location. Our study suggests that for biodiversity monitoring in Madagascar, professional scientists are likely more efficient, yet with sufficient survey effort, local community members can provide comparable estimates of species richness. We discuss the benefits and limits of incorporating community-based monitoring into surveys of vertebrate biodiversity in speciose tropical systems.</p>
+</details>
+
+<a class="external-url-button" href="https://doi.org/10.1007/s44353-024-00015-x" target="_blank" rel="noopener noreferrer">
+  🔗 Link
+</a>
+
+<a class="external-pdf-button" href="/docs/papers/Randriamiharisoa_DC_2024.pdf" target="_blank" rel="noopener noreferrer">
   📄 PDF
 </a>
 

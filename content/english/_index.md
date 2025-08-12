@@ -54,7 +54,7 @@ funfacts:
     # funfacts item loop
     - icon : "ion-ios-paper-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "Lab Research Papers Published"
-      count : "25"
+      count : "29"
       
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -77,6 +77,18 @@ funfacts:
       image : "images/people/nature_greenlee_ambodivoahangy.png"
       designation : "Conservation"
       content : "[Engaging with Malagasy stakeholders to understand how to implement conservation tech](blog/mada_conservation_tech)"
+                
+    # testimonial item loop
+    - name : "[Microclimate Modeling Workshop](blog/microclimate_ibs_workshop_2025)"
+      image : "images/logos/ibs.png"
+      designation : "Research"
+      content : "[EcoClimate leads workshop to learn microclimate modeling skills](blog/microclimate_ibs_workshop_2025)"
+                
+    # testimonial item loop
+    - name : "[Dave Klinges joins Rutgers!](blog/rutgers_acceptance)"
+      image : "images/people/dave_katie_rutgers.jpg"
+      designation : "Research"
+      content : "[EcoClimate lab begins at Rutgers Eco, Evo, & Natural Resources](blog/rutgers_acceptance)"
                 
     # testimonial item loop
     - name : "[Dave Klinges Defends Dissertation](blog/defense)"

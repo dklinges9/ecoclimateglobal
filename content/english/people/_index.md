@@ -1,5 +1,5 @@
 ---
-title: "EcoClimate Members"
+title: "EcoClimate Lab Members"
 description: ""
 draft: false
 layout: "service"
@@ -27,7 +27,10 @@ featured_service:
 <br>
 <br>
 
-![image alt=79](/images/people/nature_dave/2022BrettScheffersLab0041_cropped.jpg)
+![image alt=70](/images/people/nature_dave/2022BrettScheffersLab0041_cropped.jpg)
+
+<br>
+
 "
 
     # featured service item loop
@@ -38,8 +41,11 @@ featured_service:
 <br>
 <br>
 
-![image alt=91](/images/people/fiona_price.jpg) 
+![image alt=70](/images/people/fiona_price.jpg) 
 
+<br>
+<br>
+<br>
 "
 
 # Mikoja
@@ -50,7 +56,7 @@ featured_service:
 <br>
 <br>
 
-![image alt=80](/images/people/mikoja_rambinintsoa.png) 
+![image alt=75](/images/people/mikoja_rambinintsoa.png) 
 
 "
 
@@ -63,7 +69,7 @@ featured_service:
 <br>
 <br>
 
-![image alt=90](/images/people/herizo_randrianandrasana.jpg) 
+![image alt=65](/images/people/herizo_randrianandrasana.jpg) 
 
 
 "
@@ -78,9 +84,8 @@ featured_service:
 <br>
 <br>
 
-![alt=115](/images/people/aina.jpeg) 
+![alt=80](/images/people/aina.jpeg) 
 
-<br>
 <br>
 
 "
@@ -96,11 +101,13 @@ featured_service:
 <br>
 <br>
 
-![alt=70](/images/people/woman_silhouette.png) 
+![alt=50](/images/people/woman_silhouette.png) 
 
 
 <br>
 <br>
+<br>
+
 
 "
 

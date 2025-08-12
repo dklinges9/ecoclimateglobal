@@ -23,13 +23,13 @@ In my research, I employ observation, experimental, and computational approaches
 
 ![alt >](images/people/nature_dave/nature_patagonia1.jpg)
 
-_CV last updated: June 2025_  
+_CV last updated: Aug 2025_  
 "
 
   button:
     enable : true
     label : "Download CV"
-    link : "docs/cv/Klinges-20250610.pdf"
+    link : "docs/cv/Klinges-20250806.pdf"
 
   funfacts: 
       

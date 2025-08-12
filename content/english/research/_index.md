@@ -97,7 +97,7 @@ _Exemplary publications:_
 <br>
 [Randriamiharisoa _et al._ 2024 _Discover Conservation_](https://doi.org/10.1007/s44353-024-00015-x)
 <br>
-Klinges, Lembrechts, Van de Vondel, Greenlee, Hayles-Cotton, Senior _In Revision_; [Pre-print available](https://www.biorxiv.org/content/10.1101/2024.09.13.612939v1.abstract)  
+[Klinges _et al._ 2025 _Ecological Informatics_](https://www.sciencedirect.com/science/article/pii/S1574954125003851)  
 
 "
 
@@ -115,8 +115,6 @@ Klinges, Lembrechts, Van de Vondel, Greenlee, Hayles-Cotton, Senior _In Revision
 ![image alt=90](/images/figures/australia.gif) 
 
 <br>
-<br>
-<br>
 
 _Exemplary publications:_  
 
@@ -129,15 +127,14 @@ _Exemplary publications:_
 <br>
 [Trew _et al._ 2024 _Nature Climate Change_](https://www.nature.com/articles/s41558-024-02031-0)   
 <br>
-[Lembrechts _et al._ 2022 _Globbal Change Biology_](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.16060)  
-
+[Lembrechts _et al._ 2022 _Globbal Change Biology_](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.16060)
 "
 
-    - name : "Shifting Species' Distributions"
+    - name : "Species on the Move in Space and Time"
       icon : "ion-earth"
       color : "primary-darker"
 
-      content : "Climate change and habitat loss pose colossal challenges to biodiversity. One way a species can adapt to changing conditions is by migrating to track tolerable climates and habitats. Critical for conservation and restoration, therefore, is to identify if, where, and why species will move in response to global change. Yet our abilities to predict species' shifting distributions remain lackluster. I attempt to improve our forecasts of species' distributions, integrating big data on animal occurrences and remote sensing with mathematical models that represent biophysiology, demography, and dispersal.
+      content : "Climate change and habitat loss pose colossal challenges to biodiversity. Species can either move to track tolerable climates and habitats, alter the timing of life events (phenology), adapt to novel conditions, or perish. Critical for conservation and restoration, therefore, is to identify if, where, and why species will shift in response to global change. Yet our abilities to predict species' shifting ranges and phenology remain lackluster. I attempt to improve our forecasts of species' distributions, activity, and biological states, integrating big data on animal occurrences and remote sensing with mathematical models that represent biophysiology, demography, and dispersal.
 
 <br>
 <br>
@@ -154,6 +151,8 @@ _Exemplary publications:_
 
 <br>
 [Fredston _et al._ 2025 _Trends in Ecology and Evolution_](https://www.sciencedirect.com/science/article/pii/S0169534725000874)
+<br>
+[Soifer _et al._ 2025 _Trends in Ecology and Evolution_])(https://www.sciencedirect.com/science/article/pii/S0169534725001776)
 <br>
 [Klinges _et al._ 2024 _Global Ecology and Biogeography_](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13884)
 <br>
