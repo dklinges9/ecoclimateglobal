@@ -93,6 +93,12 @@ Upon re-building, you can confirm that the new/modified CSS class was in the new
 
 Modifying the [css/style.css](css/style.css) file will make no changes, as this is a derived file.
 
+
+### Changing default font sizes
+
+The best source for changing default font sizes across all pages is:  
+`themes/airspace_hugo/assets/scss/_typography.scss`
+
 ## _Setting up to Contribute_
 
 ### Prerequisites
