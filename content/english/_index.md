@@ -15,7 +15,7 @@ banner:
 about:
   enable : true
   title : "[Intersection of Ecology, Climate, and Computation](/research)"
-  description : "Translating Global Change Processes into Physicological impacts for Organisms, Species, and Communities"
+  description : "Translating Global Change Processes into Physiological impacts for Organisms, Species, and Communities"
   content : "Despite hundreds of years of observational, experimental, and (more recently) computational work, we still have much to learn about our environment on Earth. To uncover and disseminate this endless knowledge is critical given the state of anthropogenic global change, as the immense biodiversity and undomesticated landscapes that are the source of natural beauty are imperiled. Our group integrates field data collection, experiments, and mathematical models to disentangle how biodiversity responds to global change."
 
   button:
@@ -128,7 +128,7 @@ cta:
   title : "  If research is the eyes of the scientific community, outreach is its voice: positive change requires proper communication and motivation.
 
 
-  One form of conveying the importance of conservation work is through film and photo. See the gallery for some of Nature Dave's work developing multimedia products to share some of the amazing wildlife and scenes he's experienced.
+  One form of conveying the importance of conservation work is through film and photo. See the gallery for some of our photos some of the amazing wildlife and scenes we've experienced.
 
   "
   button:
