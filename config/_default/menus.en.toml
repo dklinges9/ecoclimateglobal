@@ -5,11 +5,11 @@ name = "Home"
 URL = "/"
 weight = 1
 
-# about page
 [[main]]
-name = "About"
-URL = "about"
+name = "Research"
+URL = "research"
 weight = 2
+hasChildren = true
 
 # publications page
 [[main]]
@@ -18,10 +18,48 @@ URL = "publications"
 weight = 3
 
 [[main]]
-name = "Research"
-URL = "research"
+name = "People"
 weight = 4
 hasChildren = true
+
+	[[main]]
+	parent = "People"
+	name = "About Dave"
+	URL = "about"
+	weight = 1
+
+	[[main]]
+	parent = "People"
+	name = "Lab Members"
+	URL = "people"
+	weight = 2
+
+[[main]]
+name = "Products"
+weight = 5
+hasChildren = true
+
+	[[main]]
+	parent = "Products"
+	weight = 1
+	name = "Data & Software"
+	URL = "data_software/"
+
+	[[main]]
+	parent = "Products"
+	name = "Multimedia"
+	URL = "project/"
+	weight = 2
+
+[[main]]
+name = "Blog"
+URL = "blog"
+weight = 6
+
+[[main]]
+name = "Join Us!"
+URL = "join"
+weight = 7
 
 # [[main]]
 # name = "Projects"
@@ -34,31 +72,6 @@ hasChildren = true
 #   name = "Land Cover"
 #   URL = "lcluc"
 
-[[main]]
-name = "People"
-URL = "people"
-weight = 6
-
-[[main]]
-name = "Blog"
-URL = "blog"
-weight = 7
-
-[[main]]
-weight = 8
-name = "Data & Software"
-URL = "data_software"
-
-[[main]]
-name = "Multimedia"
-URL = "project"
-weight = 9
-
-[[main]]
-name = "Join Us!"
-URL = "join"
-weight = 10
-
 # footer menu
 [[footer]]
 name = "About"
@@ -69,10 +82,11 @@ name = "Research"
 URL = "research"
 weight = 2
 [[footer]]
-name = "Multimedia"
-URL = "gallery"
+name = "Lab Members"
+URL = "people"
 weight = 3
 [[footer]]
-name = "Contact"
-URL = "contact"
-weight = 4
+name = "Multimedia"
+URL = "project"
+weight = 3
+[[footer]]
