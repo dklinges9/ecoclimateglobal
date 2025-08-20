@@ -1,102 +1,77 @@
 ---
 title: "EcoClimate Lab Members"
 description: ""
+subtitle: ""
+date: 2021-04-08T13:05:29+06:00
 draft: false
-layout: "service"
 bg_image: "images/landscape/patagonia_torres2_banner.JPG"
+---
+
+<section class="feature-grid full-bleed" style="color:#ffffffff;">
 
 
-########################### Overview #############################
-about:
-  enable : false
-  title : ""
-  content : ""
-  image : "images/people/frog_climate.jpg"
+<!-- DAVE KLINGES -->
 
 
-########################## featured service ############################
-featured_service:
-  enable : true
-  service_item:
+  <article class="feature" style="--bg: #4d485dff;">
+    <h2  style="text-align: center;">
+Dr. David Klinges
 
-    # Dave Klinges
-    - name : "Dr. Dave Klinges"
-      color : "primary"
-      content : "Dave is the Principal Investigator of the EcoClimate Group. He is currently a Postdoctoral Associate at Yale University and an incoming Assistant Professor at Rutgers University. See [here](/about/) for more.  
-
+</h2>
+    <p>
+Dave is the Principal Investigator of the EcoClimate Group. He is currently a Postdoctoral Associate at Yale University and an incoming Assistant Professor at Rutgers University. See <a href="/about/">here</a> for more.
+<br>
+<br>
 <br>
 <br>
 
 ![image alt=70](/images/people/nature_dave/2022BrettScheffersLab0041_cropped.jpg)
+</p>
+  </article>
 
-<br>
 
-"
 
-    # featured service item loop
-    - name : "Fiona Price"
-      color : "primary-darker"
-      content : "Fiona graduated from Dartmouth College in 2023, and has been a core collaborator on research exploring the efficacy of local community members for wildlife monitoring in protected areas in Madagascar.
 
-<br>
-<br>
 
-![image alt=70](/images/people/fiona_price.jpg) 
 
-<br>
-<br>
-<br>
-"
 
-# Mikoja
-    - name : "Mikoja Rambinintsoa"
-      color : "primary-dark"
-      content : "Mikoja completed her Masters with ESSA at the University of Antananarivo, through which she now is pursuing her PhD. We have collaborated on her work exploring the impacts of climate change on radiated tortoises, _Astrochelys radiata._  
+
+<!-- MIKOJA -->
+
+  <article class="feature" style="--bg: #77708bff;">
+    <h2  style="text-align: center;">
+Mikoja Rambinintsoa
+</h2>
+    <p>
+Mikoja completed her Masters with ESSA at the University of Antananarivo, through which she now is pursuing her PhD with Dave on her committee. We have collaborated on her work exploring the impacts of climate change on radiated tortoises, <i>Astrochelys radiata.</i>  
 
 <br>
 <br>
 
 ![image alt=75](/images/people/mikoja_rambinintsoa.png) 
 
-"
+</p>
+  </article>
 
 
-# Herizo
-    - name : "Herizo Randrianandrasana"
-      color : "primary-dark"
-      content : "Herizo completed his Masters in Zoology at the University of Fianarantsoa, and is now a Research Project Manager at Health in Harmony. He is a collaborator on amphibian thermal and landscape ecology work.
-
-<br>
-<br>
-
-![image alt=73](/images/people/herizo_randrianandrasana.jpg) 
 
 
-"
 
 
-# Aina
-    - name : "Tsitohaina Randriambololona"
-      color : "primary"
-      content : "Aina was a core team member and leader within our group from 2019 - 2022, directing many in-country operations in Madagascar especially pertaining to amphibian ecology and multimedia. He sadly passed away at an early age due to a sudden bout of malaria. Please consider supporting the [Randriambololona Memorial Fellowship](https://www.gofundme.com/f/aina-madagascar-film-fellowship), which supports Malagasy students for training in [wildlife filmmaking](https://www.madagascarfilmandphotography.com/scholarship-program). 
 
+
+<!-- NEW LAB MEMBER -->
+
+  <article class="feature" style="--bg: #353240ff;">
+    <h2  style="text-align: center;">
+You?
+</h2>
+    <p>
+Interested in joining the group? See <a href="/join/">here</a> for more information about current opportunities. 
 
 <br>
 <br>
-
-![alt=80](/images/people/aina.jpeg) 
-
 <br>
-
-"
-
-
-# New member
-    - name : "You?"
-      color : "primary-darker"
-      content : "Interested in joining the group? See [here](/join) for more information about current opportunities. 
-
-
 <br>
 <br>
 <br>
@@ -104,54 +79,99 @@ featured_service:
 ![alt=50](/images/people/woman_silhouette.png) 
 
 
+</p>
+  </article>
+
+</section>
+
+
+
+
 <br>
 <br>
 <br>
+<br>
+<br>
 
 
-"
+<h1 style="text-align: center;"> Past Lab Members </h1>
+
+<br>
+<br>
 
 
-#     # featured service item loop
-#     - name : "Dr. Brett Scheffers"
-#       color : "primary"
-#       content : "Dr. Scheffers is an Associate Professor in the Dept. of Wildife Ecology and Conservation, and served as my PhD advisor (2019 - 2024). [Website](https://www.schefferslab.com/)  
-# 
-# <br>
-# <br>
-# 
-# ![image alt=60](/images/people/brett_scheffers_small.png)
-# 
-# "
-#       
-#     # featured service item loop
-#     - name : "Dr. David Skelly"
-#       color : "primary-dark"
-#       content : "Dr. Skelly is a Professor of Biology and Directory of the Peabody History Museum and Yale University. [Website](https://campuspress.yale.edu/skellylab/)
-# 
-# <br>
-# <br>
-# 
-# ![image alt=80](/images/people/david_skelly.png) 
-# 
-# "
-# 
-#     # featured service item loop
-#     - name : "Dr. Lalatiana Randriamiharisoa"
-#       color : "primary-darker"
-#       content : "Dr. Randriamiharisoa is the Director of Conservation and Research at Madagascar National Parks.
-# 
-# <br>
-# <br>
-# 
-# ![image alt=90](/images/people/lalatiana_randriamiharisoa.jpg) 
-# 
-# <br>
-# <br>
-# "
+<section class="feature-grid full-bleed" style="color:#ffffffff;">
 
-############################# call to action #################################
-cta:
-  enable : true
-  # call to action content comes from "data/*/homepage.yml"
+
+<!-- FIONA -->
+
+
+  <article class="feature" style="--bg: #4d485dff;">
+    <h2  style="text-align: center;">
+Fiona Price
+
+</h2>
+    <p>
+Fiona graduated from Dartmouth College in 2023, and has been a core collaborator on research exploring the efficacy of local community members for wildlife monitoring in protected areas in Madagascar.
+
+<br>
+<br>
+
+![image alt=70](/images/people/fiona_price.jpg) 
+</p>
+  </article>
+
+
+
+
+
+
+
+
+<!-- HERIZO -->
+
+  <article class="feature" style="--bg: #77708bff;">
+    <h2  style="text-align: center;">
+Herizo Randrianandrasana
+</h2>
+    <p>
+Herizo completed his Masters in Zoology at the University of Fianarantsoa, and is now a Research Project Manager at Health in Harmony. He is a collaborator on amphibian thermal and landscape ecology work.
+
+<br>
+<br>
+
+![image alt=73](/images/people/herizo_randrianandrasana.jpg) 
+
+
+</p>
+  </article>
+
+
+
+
+
+
+
+
+<!-- AINA -->
+
+  <article class="feature" style="--bg: #353240ff;">
+    <h2  style="text-align: center;">
+Tsitohaina Randriambololona
+</h2>
+    <p>
+Aina was a core team member and leader within our group from 2019 - 2022, directing many in-country operations in Madagascar especially pertaining to amphibian ecology and multimedia. He sadly passed away at an early age due to a sudden bout of malaria. Please consider supporting the 
+<a href="https://www.gofundme.com/f/aina-madagascar-film-fellowship" target="_blank">Randriambololona Memorial Fellowship</a>, which supports Malagasy students for training in <a href="https://www.madagascarfilmandphotography.com/scholarship-program/" target="_blank">wildlife filmmaking</a>.
+
+<br>
+<br>
+
+![alt=80](/images/people/aina.jpeg) 
+
+
+</p>
+  </article>
+
+</section>
+
 ---
