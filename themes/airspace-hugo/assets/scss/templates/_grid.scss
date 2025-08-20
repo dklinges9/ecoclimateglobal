@@ -1,0 +1,70 @@
+/*=================================================================
+  Full-width grid for use in research and people pages
+==================================================================*/
+
+.full-bleed {
+  width: 80vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: calc(-50vw + 15%);
+  margin-right: calc(-50vw + 15%);
+}
+
+/* 3-up responsive grid */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(12px, 2vw, 24px);
+  align-items: stretch;
+}
+
+/* Stack at smaller sizes */
+@media (max-width: 100px) {
+  .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .feature-grid { grid-template-columns: 1fr; }
+}
+
+/* Card */
+.feature {
+  /* use CSS var so you can set per-card background inline */
+  --bg: #e7e7e7ff;
+  background: var(--bg);
+  color: inherit;
+  border-radius: 14px;
+  padding: clamp(16px, 2.2vw, 28px);
+  box-shadow: 0 4px 16px rgba(0,0,0,.06);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Ensure card text inherits the card/grid color */
+.feature {
+color: var(--fg, inherit); 
+  --link: #1e88e5;           /* link color */
+  --link-hover: #1565c0;     /* hover/focus color */
+} /* from the earlier snippet */
+.feature :is(p, li, blockquote, figcaption, small, code) { color: inherit; }
+
+/* Media inside the card */
+.feature img,
+.feature video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* If you want fixed height media with cover fit, use aspect-ratio */
+.feature .media-cover {
+  width: 100%;
+  aspect-ratio: 16/9;      /* change if you like */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Make the grid span the entire window width */
+.feature-grid.full-bleed { margin-top: 0; margin-bottom: 0; }

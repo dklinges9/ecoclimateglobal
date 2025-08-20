@@ -40,6 +40,8 @@ $font-primary: '{{ replace (replaceRE ":[ital,]*[ital@]*[wght@]*[0-9,;]+" "" .fo
 
 @import 'templates/_images.scss';
 
+@import 'templates/_grid.scss';
+
 @import 'templates/_links.scss';
 
 @import 'templates/_products.scss';
