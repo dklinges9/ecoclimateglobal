@@ -36,7 +36,7 @@ DirtClim is a database of global microclimate hourly timeseries, including air/s
 <br>
 <br>
 
-It can be hard and messy to decide where to deploy wireless environmental sensors. Sometimes you may choose locations in advance of first visit but find them unfeasible when you visit in person. Even worse, many scientists and conservationists have to revisit sensors after deployment, only to find that some of their sensors (possibly located in key unique locations). How to decide where to deploy one's sensors to uniformly sample across environmental variation, and iteratively choose new locations when some locations don't work or sensors fail? We introduced a comprehensive step-by-step practical guide for environmental sensor site selection and network deployment, drawing on experiences from diverse geographic locations and focusing specifically on microclimate sensors as a representative environmental variable. Corresponding paper describing the software [here in Klinges et al. 2025 _Ecological Informatics_](https://www.sciencedirect.com/science/article/pii/S1574954125003851).
+It can be hard and messy to decide where to deploy wireless environmental sensors. Sometimes you may choose locations before you've visited your field site, but find those locations unfeasible upon visiting in person. And many scientists and conservationists revisit sensors after deployment, only to find that some of their sensors (possibly located in key unique locations) have stopped working or have been destroyed. How to decide where to deploy one's sensors to uniformly sample across environmental variation, and iteratively choose new locations when some locations don't work or sensors fail? We introduced a comprehensive step-by-step practical guide for environmental sensor site selection and network deployment, complete with an open-source R program that works anywhere on the non-polar terrestrial planet. This project was drawing on experiences from an authorship team with diverse geographic expertise and focusing specifically on microclimate sensors as a representative environmental variable. Corresponding paper describing the software [here in Klinges et al. 2025 _Ecological Informatics_](https://www.sciencedirect.com/science/article/pii/S1574954125003851).
 
 <br>
 <br>
@@ -52,7 +52,7 @@ It can be hard and messy to decide where to deploy wireless environmental sensor
 <br>
 <br>
 
-We designed an R package to download and process ERA5 gridded climate timeseries data, to be ready for use in microclimate modelling. Corresponding paper describing the package [here in _Methods in Ecology and Evolution_](https://doi.org/10.1111/2041-210X.13877).
+We designed an R package to download and process ERA5 gridded climate timeseries data, to be ready for use in microclimate modeling. Corresponding paper describing the package [here in _Methods in Ecology and Evolution_](https://doi.org/10.1111/2041-210X.13877).
 
 <br>
 <br>
@@ -60,7 +60,7 @@ We designed an R package to download and process ERA5 gridded climate timeseries
 
 ## [microclimc R package](https://github.com/ilyamaclean/microclimc)
 
-Most biodiversity lives in microclimates influenced by vegetation, such as forest canopies but also shurblands, meadows, sand savannahs. To help ecologists represent such climate conditions near the earth's surface, _microclimc_ is a mechanistic model, made available through an R package, that leverages first principles physics to predict microclimate above, within, and below the canopy in any terrestrial location on earth. Alongside the microclimate model, several functions are provided to assist data assimilation, as well as different parameterizations to capture a variety of habitats, allowing flexible application even when little is known about the study location. Corresponding paper describing the package [here in _Ecological Modelling_](https://www.sciencedirect.com/science/article/pii/S0304380021001265).
+Most biodiversity lives in microclimates influenced by vegetation, such as forest canopies but also shrublands, meadows, sand savannahs. To help ecologists represent such climate conditions near the earth's surface, _microclimc_ is a mechanistic model, made available through an R package, that leverages first principles physics to predict microclimate above, within, and below the canopy in any terrestrial location on earth. Alongside the microclimate model, several functions are provided to assist data assimilation, as well as different parameterizations to capture a variety of habitats, allowing flexible application even when little is known about the study location. Corresponding paper describing the package [here in _Ecological Modelling_](https://www.sciencedirect.com/science/article/pii/S0304380021001265).
 
 <br>
 
