@@ -24,6 +24,8 @@ $font-primary: '{{ replace (replaceRE ":[ital,]*[ital@]*[wght@]*[0-9,;]+" "" .fo
 
 @import 'templates/_slider.scss';
 
+@import 'templates/_slider2.scss';
+
 @import 'templates/_call-to-action.scss';
 
 @import 'templates/_service.scss';

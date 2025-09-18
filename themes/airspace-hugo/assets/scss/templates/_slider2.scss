@@ -1,0 +1,68 @@
+/* --- Hugo SCSS slider (namespaced to avoid theme clashes) --- */
+
+/* Config */
+$hgx-max-count: 24 !default;   /* max slides you expect */
+
+/* Core */
+.hgx-slider {
+  /* Tunables via utility classes below */
+  --count: 1;                  /* number of slides */
+  --interval: 3000ms;          /* time per slide */
+  --ratio: 16/9;               /* aspect ratio */
+
+  position: relative;
+  width: 100%;
+  aspect-ratio: var(--ratio);
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.hgx-track {
+  display: flex;
+  width: calc(100% * var(--count));
+  height: 100%;
+  animation: hgx-step calc(var(--count) * var(--interval))
+             steps(var(--count)) infinite;
+}
+
+.hgx-slider:hover .hgx-track { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  .hgx-track { animation: none; }
+}
+
+.hgx-item {
+  flex: 0 0 100%;
+  height: 100%;
+}
+
+.hgx-item > img { object-fit: contain; object-position: center; }
+
+.hgx-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* The sliding motion (translate across N slides) */
+@keyframes hgx-step {
+  to { transform: translateX(calc(-100% * (var(--count) - 1))); }
+}
+
+/* ---------- Utilities ---------- */
+
+/* 1) Count: set how many slides (so width/animation know what to do) */
+@for $i from 1 through $hgx-max-count {
+  .hgx-count-#{$i} { --count: #{$i}; }
+}
+
+/* 2) Interval helpers (optional) */
+.hgx-int-2s { --interval: 2000ms; }
+.hgx-int-3s { --interval: 3000ms; }
+.hgx-int-4s { --interval: 4000ms; }
+.hgx-int-5s { --interval: 5000ms; }
+
+/* 3) Aspect-ratio helpers (optional) */
+.hgx-ratio-16x9 { aspect-ratio: 16/9; }
+.hgx-ratio-3x2  { aspect-ratio: 3/2; }
+.hgx-ratio-1x1  { aspect-ratio: 1/1; }

@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">{{/* Params:</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">     </span>dir: folder of images relative to /assets or /static (e.g. "photos/trip-2025")</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">     </span>interval: milliseconds between slides (default 3000)</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">     </span>ratio: CSS aspect-ratio (default "16/9")</span></p>
+<p class="p1"><span class="s1">*/}}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">{{- $dir := .Get "dir" | default "photos" -}}</span></p>
+<p class="p1"><span class="s1">{{- $interval := .Get "interval" | default "3000" -}}</span></p>
+<p class="p1"><span class="s1">{{- $ratio := .Get "ratio" | default "16/9" -}}</span></p>
+<p class="p1"><span class="s1">{{- $pattern := printf "%s/*.{jpg,jpeg,png,webp,avif,gif,svg}" $dir -}}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">{{/* Try page bundle, then /assets via Pipes */}}</span></p>
+<p class="p1"><span class="s1">{{- $imgs := .Page.Resources.Match $pattern -}}</span></p>
+<p class="p1"><span class="s1">{{- if not (gt (len $imgs) 0) -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{- $imgs = resources.Match $pattern -}}</span></p>
+<p class="p1"><span class="s1">{{- end -}}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">{{/* If still none, fall back to /static */}}</span></p>
+<p class="p1"><span class="s1">{{- $static := slice -}}</span></p>
+<p class="p1"><span class="s1">{{- if not (gt (len $imgs) 0) -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{- with (readDir (printf "static/%s" $dir)) -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{{- range . -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{{- $n := lower .Name -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{{- if or (hasSuffix $n ".jpg") (hasSuffix $n ".jpeg") (hasSuffix $n ".png") (hasSuffix $n ".webp") (hasSuffix $n ".avif") (hasSuffix $n ".gif") (hasSuffix $n ".svg") -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{{- $static = $static | append (printf "/%s/%s" $dir .Name) -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{{- end -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{{- end -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{- end -}}</span></p>
+<p class="p1"><span class="s1">{{- end -}}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">{{- $count := cond (gt (len $imgs) 0) (len $imgs) (len $static) -}}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">{{- if eq $count 0 -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="hgx-slider-error"&gt;No images found in &lt;code&gt;{{ $dir }}&lt;/code&gt;.&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">{{- else -}}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{/* Emit a tiny external CSS file so CSP won't block it */}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{{- $css := resources.FromString "shortcodes/hgx-slider.css" `</span></p>
+<p class="p1"><span class="s1">.hgx-slider{position:relative;width:100%;aspect-ratio:var(--ratio,16/9);overflow:hidden;border-radius:12px}</span></p>
+<p class="p1"><span class="s1">.hgx-track{display:flex;width:calc(100% * var(--count));height:100%;animation:hgx-step calc(var(--count) * var(--interval)) steps(var(--count)) infinite}</span></p>
+<p class="p1"><span class="s1">.hgx-slider:hover .hgx-track{animation-play-state:paused}</span></p>
+<p class="p1"><span class="s1">@media (prefers-reduced-motion:reduce){.hgx-track{animation:none}}</span></p>
+<p class="p1"><span class="s1">.hgx-item{flex:0 0 100%;height:100%}</span></p>
+<p class="p1"><span class="s1">.hgx-item img{width:100%;height:100%;object-fit:cover;display:block}</span></p>
+<p class="p1"><span class="s1">.hgx-track.no-anim{animation:none}</span></p>
+<p class="p1"><span class="s1">@keyframes hgx-step{to{transform:translateX(calc(-100% * (var(--count) - 1)))}}` | minify | fingerprint -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}"&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="hgx-slider" style="--count:{{ $count }}; --interval:{{ $interval }}ms; --ratio:{{ $ratio }};"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="hgx-track{{ if le $count 1 }} no-anim{{ end }}"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{{- if gt (len $imgs) 0 -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{{- range $r := $imgs -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{{- $mt := $r.MediaType -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{{- $out := $r -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{{- if and (eq $mt.Type "image") (ne $mt.SubType "svg") (ne $mt.SubType "gif") -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{{- $out = $r.Fit "1600x q85" -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{{- end -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;figure class="hgx-item"&gt;&lt;img loading="lazy" src="{{ $out.RelPermalink }}" alt="{{ $r.Name }}"&gt;&lt;/figure&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{{- end -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{{- else -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{{- range $p := $static -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;figure class="hgx-item"&gt;&lt;img loading="lazy" src="{{ $p }}" alt=""&gt;&lt;/figure&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{{- end -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{{- end -}}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">{{- end -}}</span></p>
+</body>
+</html>
