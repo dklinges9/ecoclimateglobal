@@ -120,7 +120,6 @@ service:
   # service content comes from "content/*/service.md" file
 
 
-
 ############################ call to action ###########################
 cta:
   enable : true

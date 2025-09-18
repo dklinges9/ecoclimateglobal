@@ -12,6 +12,8 @@ layout: "faq"
 
 <br>
 
+**update on PhD student search: we have received many applications from qualified candidates and therefore are no longer actively seeking more applications. You are welcome to submit your materials if you believe you are a good fit to our group, but please note that we may not be able to consider your application at this time as we have begun interviews with other candidates.**
+
 Please see below for current and upcoming opportunities to join the group. We always welcome inquiries from motivated potential members with research interests that fit our group!
 
 We prioritize new members who will facilitate the largest amount of growth for the group – you learn more from us, and we learn more from you. This entails membership from a diverse set of backgrounds, perspective, disciplines, and skillsets. Ideally, you can (or soon will) do things that we cannot, and we can do things that at first were new to you, so that we are all growing together. Ultimately, however, we are unified by our research interests and mission: advancing knowledge and practice on how humans, crops, and biodiversity are all impacted by climate change.
@@ -35,6 +37,7 @@ We will be hiring a **Postdoctoral Associate for a two-year contract beginning F
 -- Analyzing rates of climate change and extreme events as experienced by life on earth using in-house databases (e.g. DirtClim) and open-source mechanistic microclimate models  
 -- Using process-based models to estimate ongoing and future range shifts of socially and economically important species  
 -- Iterative near-term forecasting of terrestrial and/or aquatic ecosystems with an emphasis on microclimate and ecophysiology  
+-- Leveraging structure decision-making to assist conservation planning given uncertain futures in Madagascar
 -- Developing novely mechanistic approaches to pair theory from physiology, landscape ecology, and behavioral ecology
 
 <br>
@@ -54,6 +57,8 @@ If interested, please reach out to Dr. David Klinges ([d.klinges@rutgers.edu](ma
 <br>
 
 <u style="font-size:28px">Fully-funded PhD Student – Rutgers University</u>
+
+**update on PhD student search: we have received many applications from qualified candidates and therefore are no longer actively seeking more applications. You are welcome to submit your materials if you believe you are a good fit to our group, but please note that we may not be able to consider your application at this time as we have begun interviews with other candidates.**
 
 The EcoClimate research group at Rutgers University seeks applications for a **fully funded PhD student to join the lab beginning Fall 2026, with five years of support**.
 
