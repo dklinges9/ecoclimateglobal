@@ -12,7 +12,7 @@ bg_image: "images/landscape/canopy_understory.JPG"
 ################################## About #####################################
 about:
   enable : true
-  image : "images/people/nature_dave/2022BrettScheffersLab0041_cropped.jpg"
+  image : "images/people/nature_dave/nature_patagonia1.jpg"
   title : ""
   content : "I am an incoming Assistant Professor at Rutgers University in the [Department of Ecology, Evolution, and Natural Resources](https://deenr.rutgers.edu/) starting Fall 2026.
 
@@ -20,16 +20,13 @@ Currently, I am a Postdoctoral Associate in the [Skelly Lab at Yale University](
 
 In my research, I employ observational, experimental, and computational approaches to explore how climate change and land use change both shape biodiversity and the environment from local to global scales. I attempt to be a “full-stack” ecologist, engaging in ecological research from empirical data collection (namely in Madagsacar) to data curation to statistical and mathematical modeling to application for real-world conservation and management. See our [Research Program](/research/) for more.
 
-
-![alt >](images/people/nature_dave/nature_patagonia1.jpg)
-
-_CV last updated: Aug 2025_  
+_CV last updated: Oct 2025_  
 "
 
   button:
     enable : true
     label : "Download CV"
-    link : "docs/cv/Klinges-20251014.pdf"
+    link : "docs/cv/Klinges-20251030.pdf"
 
   funfacts: 
 
