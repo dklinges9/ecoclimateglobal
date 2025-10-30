@@ -18,7 +18,31 @@ _\*Corresponding/senior author; +Undergraduate mentee_
 
 ### 2025
 
-(28) **Klinges, D.H.**, Lembrechts, J.J., Van de Vondel, S., Greenlee, E., Hayles-Cotton, K., Senior, R. Extreme events drive rapid and dynamic range fluctuations. _Ecological Informatics_
+(29) Greenlee, E., **Klinges, D.H.**, Randriamiharisoa, L. O., Valenta, K., Rakotoarivelo, J. C., Rasojivola, J., Rambeloniaina, J., Rasolonjatovo, N. N., Razafindramavo, G., Mijoro, T. J., Ratsirarson, J., Ramahatratra, E., Efitiria, Raharinavalomanana, Z., Rajoelison, E. T., Ross, A. C., Kelly, T. J.,  Zegura, E., Hester, J. Cabral., A. Sustaining Workers Who Sustain the World: Assets-Based Design for Conservation Technologies in Madagascar. _Proceedings of the ACM on Human-Computer Interaction_  
+
+<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+
+<details>
+  <summary class="button-abstract-style">Abstract</summary>
+  <p>Local workers and their knowledge are essential for sustainable and effective conservation efforts. However, many technology-assisted conservation programs are guided by global benchmarks (e.g., forest cover) and industry metrics (e.g., cost per acre), which often devalue local knowledge and fail to consider the economic and conservation goals of local workers. Assets-based design is well-suited to center workers and their strengths, yet it may fail to fully address the complexities of long-term conservation programs by not explicitly emphasizing workers' goals or bolstering their assets. We extend recent approaches in assets-based design literature that address these limitations through our case studies of reforestation, biodiversity monitoring, and carbon sequestration programs in three protected areas in Madagascar. We leverage a mixed-methods approach of direct reactive observations, unstructured interviews, and an informal design workshop, revealing emergent themes surrounding economic sustainability and the value of local ecological knowledge in conservation. Finally, we explore examples, tensions, and design considerations for worker-centered conservation technology to: (1) prioritize local knowledge, (2) foster love of nature, (3) center economic goals, and (4) embrace local autonomy. This work advances the dialogue on assets-based design, promoting the co-creation of equitable and sustainable conservation technologies with workers in Global South settings by centering local economic priorities and enhancing workers' strengths.</p>
+</details>
+
+<a class="external-url-button" href="https://dl.acm.org/doi/abs/10.1145/3757664" target="_blank" rel="noopener noreferrer">
+  🔗 Link
+</a>
+
+<a class="external-pdf-button" href="/docs/papers/Greenlee_Proceedings_HCI_2025.pdf" target="_blank" rel="noopener noreferrer">
+  📄 PDF
+</a>
+
+</div>
+
+<br>
+<br>
+
+
+
+(28) **Klinges, D.H.**, Lembrechts, J.J., Van de Vondel, S., Greenlee, E., Hayles-Cotton, K., Senior, R.  A workflow for microclimate sensor networks: integrating geographic tools, statistics, and local knowledge. _Ecological Informatics_
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
 
@@ -724,11 +748,7 @@ _Herpetological Review Natural History Notes_
 
 ### Manuscripts in Review
 
-**Klinges, D.H.\***, Lembrechts, J.J., Van de Vondel, S., Greenlee, E., Hayles-Cotton, K., Senior, R. A workflow for microclimate sensor networks: integrating geographic tools, statistics, and local knowledge. _In review_ at Ecological Indicators [Preprint available
-](https://www.biorxiv.org/content/10.1101/2024.09.13.612939v1.abstract)
-
 Baecher, J.A., **Klinges, D.H.**, Evans, L.J., Romagosa, C.M., Fletcher Jr., R.J., Scheffers, B.R. Jointly evaluating management, climate, and land use shows diffuse spread of an invading predatory snake. _In revision_ at Journal of Applied Ecology [Preprint available](https://advance.sagepub.com/doi/full/10.22541/au.171248322.23946990/v1)
 
-Greenlee, E., Cabral., A., **Klinges, D.H.**, Zegura, E., Hester, J. Opportunities and insights on sensor-based technology for biodiversity conservation in Madagascar. _In review_ at Computer Supported Cooperative Work
 
 Holmquist, J., Belshe, E. F., Boyd, B…**Klinges, D.H.**, et al. 29 total co-authors. Probabilistic forecasting of coastal wetland soil carbon response to sea-level rise. _In review_ at Ecological Monographs
