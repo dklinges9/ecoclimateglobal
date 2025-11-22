@@ -32,6 +32,24 @@ Dave is the Principal Investigator of the EcoClimate Group. He is currently a Po
 
 
 
+<!-- STEF HAESEN -->
+
+
+  <article class="feature" style="--bg: #4d485dff;">
+    <h2  style="text-align: center;">
+Dr. Stef Haesen
+
+</h2>
+    <p>
+Stef is a Postdoctoral Fellow via the Belgian American Educational Foundation (BAEF) joining us from Leuven, Belgium, where he did his PhD and a prior postdoc at KU Leuven. Stef uses machine learning and data-driven approaches to quantify microclimate variation, especially within forests, and understanding how species' distributions respond to their experienced microclimates. As part of his fellowship, he'll be emulating mechanistic microclimate models to advance macroecological research.
+
+<br>
+
+![image alt=70](/images/people/stef_haesen.jpg)
+</p>
+  </article>
+
+
 
 
 
@@ -43,15 +61,16 @@ Dave is the Principal Investigator of the EcoClimate Group. He is currently a Po
 Mikoja Rambinintsoa
 </h2>
     <p>
-Mikoja completed her Masters with ESSA at the University of Antananarivo, through which she now is pursuing her PhD with Dave on her committee. We have collaborated on her work exploring the impacts of climate change on radiated tortoises, <i>Astrochelys radiata.</i>  
+Mikoja completed her Masters with ESSA at the University of Antananarivo, through which she now is pursuing her PhD with Dave on her committee. She has collaborated with EcoClimate on her work exploring the impacts of climate change on radiated tortoises, <i>Astrochelys radiata,</i> and how microclimate heterogeneity influences tortoise behavior, movement, and home range size. Mikoja also leads conservation monitoring campaigns in Beza Mahafaly Special Preserve, Madagascar.
 
-<br>
 <br>
 
 ![image alt=75](/images/people/mikoja_rambinintsoa.png) 
 
 </p>
   </article>
+
+
 
 
 
