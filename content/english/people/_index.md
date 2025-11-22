@@ -41,7 +41,7 @@ Dr. Stef Haesen
 
 </h2>
     <p>
-Stef is a Postdoctoral Fellow via the Belgian American Educational Foundation (BAEF) joining us from Leuven, Belgium, where he did his PhD and a prior postdoc at KU Leuven. Stef uses machine learning and data-driven approaches to quantify microclimate variation, especially within forests, and understanding how species' distributions respond to their experienced microclimates. As part of his fellowship, he'll be emulating mechanistic microclimate models to advance macroecological research.
+Stef is a Postdoctoral Fellow via the Belgian American Educational Foundation (BAEF) joining us from Leuven, Belgium, where he did his PhD and a prior postdoc at KU Leuven. Stef uses machine learning and other data-driven approaches to quantify microclimate variation, especially within forests, and to understand how species' distributions respond to their experienced microclimates. As part of his fellowship, he'll be emulating mechanistic microclimate models to advance macroecological research.
 
 <br>
 
