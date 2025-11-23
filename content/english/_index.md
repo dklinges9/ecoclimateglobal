@@ -31,16 +31,21 @@ portfolio:
   enable : true
   bg_image : "images/landscape/shenandoah_forest.png"
   title : "[RESEARCH PROGRAM](research)"
-  content : " Furthering knowledge of natural systems requires integrative research that combines field observations, experiments, models, and simulation.
+  content : "
+Linking Thermal Ecology and Biogeography for understanding Global Change
 
-  My research leverages cutting-edge modeling tools, remote sensing methods, and big data to develop and test ecological and geographical hypotheses.
-
-
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   <br>
   "
   button:
     enable : true
-    label : "View Research Program"
+    label : "View Research Page"
     link : "research"
 
 ############################# Funfacts ###############################

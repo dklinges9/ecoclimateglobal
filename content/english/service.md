@@ -28,8 +28,8 @@ service:
 
     # service item loop
     - icon: ion-thermometer #ionicon pack v2 : https://ionicons.com/v2/
-      name: SoilTemp
-      content: "Ongoing research leveraging the [SoilTemp](https://soiltemp.weebly.com/) global database of soil and near-surface temperatures"
+      name: Microclimate Ecology and Biogeography
+      content: "Ongoing research and community-building centering on the [Microclimate Database](https://meb-network.com/)"
 
     # service item loop
     - icon: icon ion-coffee #ionicon pack v2 : https://ionicons.com/v2/
