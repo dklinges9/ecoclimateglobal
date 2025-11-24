@@ -12,8 +12,6 @@ layout: "faq"
 
 <br>
 
-**update on PhD student search: we have received many applications from qualified candidates and therefore are no longer actively seeking more applications. You are welcome to submit your materials if you believe you are a good fit to our group, but please note that we may not be able to consider your application at this time as we have begun interviews with other candidates.**
-
 Please see below for current and upcoming opportunities to join the group. We always welcome inquiries from motivated potential members with research interests that fit our group!
 
 We prioritize new members who will facilitate the largest amount of growth for the group – you learn more from us, and we learn more from you. This entails membership from a diverse set of backgrounds, perspective, disciplines, and skillsets. Ideally, you can (or soon will) do things that we cannot, and we can do things that at first were new to you, so that we are all growing together. Ultimately, however, we are unified by our research interests and mission: advancing knowledge and practice on how humans, crops, and biodiversity are all impacted by climate change.
@@ -32,65 +30,59 @@ For understanding how we work, please see below for more on [our Lab Philosophy]
 
 <u style="font-size:28px">Postdoctoral Associate - Rutgers University</u>
 
-We will be hiring a **Postdoctoral Associate for a two-year contract beginning Fall 2026**. The chosen individual will conduct research related to one or more of a range of options pertinent to existing projects and databases developed within EcoClimate, and/or merged with their own interests and background. The chosen candidate will likely work on one or more projects that are primarily computational, but opportunities will be available for field and labwork. Possible projects include:
 
--- Analyzing rates of climate change and extreme events as experienced by life on earth using in-house databases (e.g. DirtClim) and open-source mechanistic microclimate models  
--- Using process-based models to estimate ongoing and future range shifts of socially and economically important species  
+The EcoClimate lab at Rutgers University is recruiting a **Postdoctoral Associate to join our lab beginning Fall 2026, funded for two years**.
+
+Applicants may either propose a research project that fits with our lab, or identify EcoClimate work that aligns with their interests. Possible (overlapping) themes include:  
+
+-- Analyzing global rates of climate change and extreme events as experienced by life on earth using in-house databases (e.g. DirtClim) as well as hybridizing mechanistic and AI microclimate models  
+-- Use-inspired modeling of climate connectivity, wildlife corridors, and species on the move, especially for socially and economically important species  
 -- Iterative near-term forecasting of terrestrial and/or aquatic ecosystems with an emphasis on microclimate and ecophysiology  
--- Leveraging structure decision-making to assist conservation planning given uncertain futures in Madagascar
--- Developing novely mechanistic approaches to pair theory from physiology, landscape ecology, and behavioral ecology
+-- Leveraging structured decision-making to assist conservation planning given uncertain futures in Madagascar  
 
-<br>
+**Desired qualifications:**
 
-**Desired qualifications:**  
--- PhD from accredited institution  
 -- Demonstrated track record of peer-reviewed publications  
--- Extensive experience developing software with R, Python, or Julia  
--- Working with remote sensing and open-source GIS tools, via R/Python/Julia or scripting in Google Earth Engine  
--- Expertise related to climate change, meteorology, terrestrial ecology, physiology, or conservation decision-making
+-- Experience developing software with Python, R, and/or Julia  
+-- Experience with machine learning and AI algorithms and tooling (e.g. PyTorch)  
+-- Experience with remote sensing and open-source GIS tools (e.g. Google Earth Engine)  
+-- Expertise related to climate change, meteorology, terrestrial ecology, physiology, or conservation decision-making  
 
-If interested, please reach out to Dr. David Klinges ([d.klinges@rutgers.edu](mailto:d.klinges@rutgers.edu) to discuss your application. In your email, please include your CV and a brief description of your research interests and how you would fit into our lab.
 
-**Postdoc salary info can be found [here](https://ohr.rutgers.edu/post-doctoral-associate-salaries-and-terms.html)**, and some resources on being a postdoc at Rutgers are [here](https://academicaffairs.rutgers.edu/life-at-rutgers). Postdocs are unionized with faculty and graduate workers, providing strong advocacy with unity. Rutgers-New Brunswick is situated in close proximity to New York City and Philadelphia with many opportunities to network within RU and across institutions. EcoClimate is committed to the career development of postdocs to help them continue to advance in their careers and land the permanent job they are looking for.
+**Application process:**
 
-<br>
-<br>
+If interested, please read through our lab website and reach out to Dr. David Klinges (d.klinges@rutgers.edu). In your email, please include:
 
-<u style="font-size:28px">Fully-funded PhD Student – Rutgers University</u>
+1. a brief description of your research interests and what project(s) you would intend to pursue as a Postdoctoral Associate in our group,
+2. your CV with contact information for 2+ references, and
+3. an exemplary writing sample, e.g. peer-reviewed publication
 
-**update on PhD student search: we have received many applications from qualified candidates and therefore are no longer actively seeking more applications. You are welcome to submit your materials if you believe you are a good fit to our group, but please note that we may not be able to consider your application at this time as we have begun interviews with other candidates.**
+In the subject line of your email, please include "Postdoc 2026: EcoClimate Lab". Review of applications will begin in January 2026 and continue thereafter.
+ 
+**Position details:**
 
-The EcoClimate research group at Rutgers University seeks applications for a **fully funded PhD student to join the lab beginning Fall 2026, with five years of support**.
+Funding is available for two calendar years (24 months), with an intended start date between September 1 and December 1 2026. Salary starts at $63,968 per year and includes health insurance, retirement and tax savings plans, and other benefits. Funding is available to support the postdoc’s research and career development, including for conference and research travel, publication costs, and computational resources. The chosen candidate will also have opportunities to join collaborations, participate in working groups, write grants, engage with natural resource managers and conservation practitioners, and work with graduate and undergraduate students, depending on their interests. Applicants must have a PhD at the time of employment.
 
-Desirable candidates will be highly motivated and have prior training in ecology, math, statistics, GIS, geography, or conservation. Preference will be given to applicants who demonstrate enthusiasm and capabilities for growth. Backgrounds of strong quantitative skills, a Master's degree, and/or substantial research experience may make a candidate more competitive. However, we encourage interested candidates to apply, even if you don't think you perfectly fit the criteria.
 
-The chosen candidate will develop one or several research projects related to ongoing research in the EcoClimate group and aligning with their interests. Possible themes include:
-
--- understanding the mechanisms by which animal and plant species shift in space and/or time due to global change  
--- detecting how climate change and land use change interact to shape the near-surface microclimate conditions  
--- applying ecological science to develop decision support for conservationists and natural resource managers in low-resource tropical settings, especially Madagascar
--- designing iterative forecasts of species' physiology, phenology, or demography in response to global change
-
-The chosen candidate's research may involve a combination of computational simulations, field studies, and/or laboratory experiments. Please see our [Research](https://ecoclimateglobal.org/research/) and [Publications](https://ecoclimateglobal.org/publications/) pages for more info on ongoing work.
-
-The student will be eligible to enter Rutgers' Doctoral programs in [Ecology and Evolution](https://deenr.rutgers.edu/graduate/ecology-evolution-graduate-program) (deadline December 1), [Atmospheric Science](https://grad.rutgers.edu/academics/programs/atmospheric-science) (deadline December 15), or [Environmental Sciences](https://envsci.rutgers.edu/academics/envsci_grad/) (deadline December 15).
-
-If interested, please read through our lab website (https://ecoclimateglobal.org/) and reach out to Dr. David Klinges (d.klinges@rutgers.edu) to discuss your application. In your email, please include:
-
-1. your CV / resume with contact information for 2+ references,
-2. unofficial transcripts, and
-3. a brief description of your research interests and how they fit into our lab, and your motivation for pursuing a graduate degree.
-
-In the subject line of your email, please include "Potential PhD Student: EcoClimate Lab". Review of applications will begin in Sept 2025 and continue thereafter. After reviewing applicants, I will select a shortlist of candidates to apply more formally to one of Rutgers' graduate programs.
-
-**Grad student salary info can be found [here](https://uhr.rutgers.edu/hr-professional/full-time-ta-and-ga-starting),** and more info can be found in the [Rutgers DEENR Student handbook](https://deenr.rutgers.edu/sites/default/files/2025-07/Student-Handbook-2025.pdf)
-
-Along with available funding within the EcoClimate lab, there is also the [Rutgers Presidential Fellowships](https://grad.rutgers.edu/funding/fellowships-grants/presidential-fellowships) that provide additional support above base salaries. For other resources, please see for [graduate student funding at Rutgers](https://gradfund.rutgers.edu/funding). I am also always happy to work with competitive candidates on external fellowships, including the [NSF GRFP](https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program).
 
 <br>
 <br>
+<br>
+<br>
 
-<u style="font-size:28px">Undegraduate Students – Rutgers University</u>
+
+
+
+<u style="font-size:28px">PhD Student – Rutgers University</u>
+
+_We are no longer accepting applications for PhD positions starting in 2026._  
+
+
+<br>
+<br>
+<br>
+
+<u style="font-size:28px">Undergraduate Students – Rutgers University</u>
 
 We will be open to accepting one or several undergraduate students during the academic semesters and summer to work with us on our ongoing research projects, and develop independent projects related to research in the lab. At present, we will only have opportunities for undergraduates to get involved in compuational projects, rather than field or lab-based projects.
 
@@ -98,6 +90,8 @@ We will be open to accepting one or several undergraduate students during the ac
 
 If interested, please reach out to Dr. David Klinges ([dklinges9@gmail.com](mailto:dklinges9@gmail.com)). In your email, please include your CV / resume, unofficial transcripts, and a brief description of why you are interested in getting involved with our group.
 
+<br>
+<br>
 <br>
 <br>
 
