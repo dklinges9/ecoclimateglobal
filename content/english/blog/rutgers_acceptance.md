@@ -6,7 +6,7 @@ image: "images/people/dave_katie_rutgers_wide.png"
 bg_image: "images/landscape/ambalavero_cloud_hills.jpg"
 categories: [Research]
 tags: [Rutgers]
-description: "kickstarting a new project in Madagascar"
+description: "Launching the new EcoClimate Lab"
 draft: false
 type: "post"
 ---
