@@ -30,6 +30,10 @@ For understanding how we work, please see below for more on [our Lab Philosophy]
 
 <u style="font-size:28px">Postdoctoral Associate - Rutgers University</u>
 
+**_Note: we have already interviewed several excellent candidates for this position. We will likely move forward with one of these candidates, but you are still welcome to apply._**
+
+<br>
+<br>
 
 The EcoClimate lab at Rutgers University is recruiting a **Postdoctoral Associate to join our lab beginning Fall 2026, funded for two years**.
 
@@ -176,7 +180,7 @@ _[Design Justice Principles](https://designjustice.org/read-the-principles)_: pi
 **Rutgers, The State University of New Jersey**
 Rutgers in central New Jersey is situated at a crossroads of American innovation, commerce, and culture and with a history entwined with that of the nation. Chartered in 1766, the university is the only one in the United States that is, at once, a colonial college, a land-grant institution, and a state university. Located within an easy drive of New York City and Philadelphia, there are nonetheless an exceptionally wide array of marine, freshwater, and terrestrial ecosystems nearby, from the continental shelf and estuaries to barrier islands, coastal plains, the piedmont, Precambrian highlands, and ridge and valley geological provinces.
 
-Ecology & evolution at Rutgers consists of approximately 60 faculty and 50 graduate students across many departments pursuing research and training in conservation biology, ecosystem ecology, evolutionary biology, marine biology, microbial ecology, population and community ecology, population genetics, and restoration ecology. Climate sciences at Rutgers consists of approximately 20 faculty and 30 graduate students pursuing research and training in meteorology, atmospheric physics, and earth sciences, primarily affiliated with the [Department of Environmental Sciences](https://envsci.rutgers.edu/people/faculty/) and the [Department of Earth and Planetary Sciences](https://eps.rutgers.edu/people/faculty).
+Ecology & evolution at Rutgers consists of approximately 60 faculty and 50 graduate students across many departments pursuing research and training in conservation biology, ecosystem ecology, evolutionary biology, marine biology, microbial ecology, population and community ecology, population genetics, and restoration ecology. Climate sciences at Rutgers consists of approximately 20 faculty and 30 graduate students pursuing research and training in meteorology, atmospheric physics, and earth sciences, primarily affiliated with the [Department of Environmental Sciences](https://envsci.rutgers.edu/people/faculty/) and the [Department of Earth and Planetary Sciences](https://eps.rutgers.edu/people/faculty). Other learning opportunities include the [Computational Biology Certificate](https://grad.rutgers.edu/academics/graduate-programs/biomedical-and-health-sciences-all-degree-programs/computational) (for which Ecology & Evolution PhD students are eligible to apply).
 
 <br>
 <br>
@@ -189,6 +193,8 @@ Ecology & evolution at Rutgers consists of approximately 60 faculty and 50 gradu
 
 <u style="font-size:20px">Living in New Jersey</u>
 
-Dave grew up in Central New Jersey, and there is lots to love about the area. [See here](https://globalchange.sites.ucsc.edu/resources/favorite-nature-areas-in-and-near-new-jersey/) for a list of natural areas that are accessible from New Brunswick and Central New Jersey.  
+Dave grew up in Central New Jersey, and there is lots to love about the area. [See here](/about/nature_nj) for some hiking locations that are easy to get to from New Brunswick and Central New Jersey. Also [see here](https://globalchange.sites.ucsc.edu/resources/favorite-nature-areas-in-and-near-new-jersey/) for a list of other nature-related activities.
 <br>
 <br>
+
+
