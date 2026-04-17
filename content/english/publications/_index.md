@@ -1,8 +1,8 @@
 ---
 title: "Publications"
-description: "2017 - 2025"
+description: "2017 - 2026"
 subtitle: ""
-lastmod: 2025-08-12T00:00:00
+lastmod: 2026-04-17T00:00:00
 bg_image: "images/landscape/patagonia_torres2_banner.JPG"
 layout: "faq"
 draft: false
@@ -10,11 +10,43 @@ draft: false
 
 ## Summary
 
-H-index: 14; Total Citations: 1982; [Google Scholar](https://scholar.google.com/citations?hl=en&user=i9pmQasAAAAJ&view_op=list_works)  
-_\*Corresponding/senior author; +Undergraduate mentee_
+H-index: 16; Total Citations: 2726; [Google Scholar](https://scholar.google.com/citations?hl=en&user=i9pmQasAAAAJ&view_op=list_works)  
+_**EcoClimate Lab Member**, \*Corresponding/senior author; +Undergraduate mentee_
 
 <br>
 <br>
+
+### 2026
+
+(30) **Klinges, D.H.**, Muñoz, M. M., Domínguez-Guerrero, S. F., Maclean, I.M.D., Kearney, M.R. Skelly, D.K. Matching climate to biological scales. _Trends in Ecology and Evolution_. DOI: 10.1016/j.tree.2025.11.015
+
+
+<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+
+<details>
+  <summary class="button-abstract-style">Abstract</summary>
+  <p>Recent advances in climate modeling and remote sensing have increased the expectation that finer-grained climate data will improve biological relevance. However, the appropriate scale for biology depends on the system and the ques- tion posed, and finer-grained data do not always improve inference in ecology and evolution. In this review we synthesize knowledge from micrometeorology, physiology, and landscape ecology to develop a framework integrating climatic and biological lenses for understanding the scales of climate exposure. This framework can aid multiscale investigation of microclimate effects on individ- uals, populations, and communities. We newly conceptualize systems of climate scale, provide recommendations for trait-based approaches to determine the scales relevant to climate–biology interactions, and highlight opportunities offered by novel methods and technologies.</p>
+</details>
+
+<a class="external-url-button" href="https://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(25)00350-7" target="_blank" rel="noopener noreferrer">
+  🔗 Link
+</a>
+
+<a class="external-pdf-button" href="/docs/papers/Klinges_TREE_2026.pdf" target="_blank" rel="noopener noreferrer">
+  📄 PDF
+</a>
+
+</div>
+
+<br>
+
+**Cover article for [Volme 41, Issue 4 of TREE, from April 2026](https://www.cell.com/trends/ecology-evolution/issue?pii=S0169-5347(25)X0016-1)**
+<br>
+![image alt = 60](/images/publications/TREE_2026_cover.jpg) 
+
+<br>
+<br>
+
 
 ### 2025
 
@@ -234,11 +266,23 @@ _Proceedings of the Royal Society of London B: Biological Sciences_
 </div>
 
 <br>
+
+**Cover article for [issue 2035 of ProcB, from November 2024](https://royalsocietypublishing.org/rspb/issue/291/2035)**
+<br>
+
+![image alt = 60](/images/publications/ProcB_cover.jpg) 
+
+<br>
 <br>
 
 (20) **Klinges, D.H.\***, Baecher, J.A., Lembrechts, J.J., Maclean, I.M.D., Lenoir, J., Greiser, C., Ashcroft, M., Evans, L.J…. Scheffers, B.R. 30 total co-authors.  
 Proximal microclimate: Moving beyond spatiotemporal resolution improves ecological predictions  
 _Global Ecology and Biogeography, 33, e13884_
+
+![image alt = 70](/images/publications/GEB_certificate_2025.png) 
+
+<br>
+<br>
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
 
@@ -263,6 +307,11 @@ _Global Ecology and Biogeography, 33, e13884_
 (19) De Frenne, P., Beugnon, R., **Klinges, D.H.**, Lenoir, J.…et al., 26 total co-authors.  
 Ten practical guidelines for microclimate monitoring in terrestrial ecosystems.  
 _Methods in Ecology and the Environment_
+
+![image alt = 70](/images/publications/MEE_certificate_2025.png) 
+
+<br>
+<br>
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
 
@@ -340,6 +389,11 @@ _Discover Conservation_
 Defining Model Complexity: An Ecological Perspective.  
 _Meteorological Applications_
 
+![image alt = 70](/images/publications/MeteoApp_certificate_2025.png) 
+
+<br>
+<br>
+
 <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
 
 <details>
@@ -412,7 +466,7 @@ _Global Change Biology_
 
 ### 2023
 
-(13) Price, F.+, Randriamiharisoa, L., **Klinges, D.H.\***  
+(13) **Price, F.+**, Randriamiharisoa, L., **Klinges, D.H.\***  
 Enhancing demographic diversity of scientist-community collaborations improves wildlife monitoring in Madagascar.  
 _Biological Conservation_
 
