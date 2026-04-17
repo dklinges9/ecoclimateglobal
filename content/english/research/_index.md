@@ -65,6 +65,7 @@ _Exemplary publications:_
 
 <br>
 
+[Klinges _et al._ 2026 _Trends in Ecology and Evolution_](https://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(25)00350-7)  
 [Klinges _et al._ 2025 _Frontiers in Ecology and the Environment_](https://onlinelibrary.wiley.com/doi/abs/10.1002/fee.2831)  
 [Klinges _et al._ 2024 _Global Ecology and Biogeography_](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13884)   
 [Klinges and Scheffers 2021 _The American Naturalist_](https://www.journals.uchicago.edu/doi/10.1086/711873)  
