@@ -51,6 +51,46 @@ Stef is a Postdoctoral Fellow via the Belgian American Educational Foundation (B
 
 
 
+<!-- MAYA HALL -->
+
+
+  <article class="feature" style="--bg: #4d485dff;">
+    <h2  style="text-align: center;">
+Maya Hall
+
+</h2>
+    <p>
+Maya Hall (she/her) is pursuing her PhD with the EcoClimate Lab, starting in Fall 2026. Maya’s research aims to advance understanding of the effects of shifting climatic and anthropogenic variables on ecosystems across spatial and temporal gradients. She will explore land use and land cover changes, ecosystem resilience, and the enhancement of climate data and modeling workflows to produce actionable science. Concurrently, she hopes to uplift diverse voices in research, including members of frontline communities, under-resourced identity groups, and those hoping to enter the sciences as early career researchers. Maya holds a bachelor’s degree in wildlife ecology from the University of Delaware and a master’s degree in Environmental Science from American University. 
+
+<br>
+<a href="CV_MayaHall_EcoClimateWebsite.pdf" target="_blank" rel="noopener noreferrer">CV</a>,
+<a href="https://maya-hall.github.io/" target="_blank" rel="noopener noreferrer">website</a>
+
+
+<br>
+
+![image alt=50](/images/people/maya_hall_crop.jpeg)
+</p>
+  </article>
+
+
+<!-- PETE CAMPBELL -->
+
+
+  <article class="feature" style="--bg: #4d485dff;">
+    <h2  style="text-align: center;">
+Peter D. Campbell
+
+</h2>
+    <p>
+Pete completed his Master's in Ecology and Evolution at the University of Kansas' Natural History Museum, and has now joined Dave and the rest of the EcoClimate lab in pursuit of a PhD. His work has focused on georeferencing techniques for historical specimens, species distribution modeling using past and present climate and specimen records, and genomic data collection and analysis for mating selection in aquaculture. Pete is now interested in studying distribution models of individual alleles, to better understand adaptation under past, present, and future conditions
+
+<br>
+
+![image alt=70](/images/people/pete_campbell_cropped.jpg)
+</p>
+  </article>
+
 
 
 
