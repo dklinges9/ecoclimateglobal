@@ -20,7 +20,7 @@ Currently, I am a Postdoctoral Associate in the [Skelly Lab at Yale University](
 
 In my research, I employ observational, experimental, and computational approaches to explore how climate change and land use change both shape biodiversity and the environment from local to global scales. I attempt to be a “full-stack” ecologist, engaging in ecological research from empirical data collection (namely in Madagsacar) to data curation to statistical and mathematical modeling to application for real-world conservation and management. See our [Research Program](/research/) for more.
 
-_CV last updated: Oct 2025_  
+_CV last updated: April 2026_  
 "
 
   button:

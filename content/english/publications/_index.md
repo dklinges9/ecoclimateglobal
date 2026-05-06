@@ -2,7 +2,7 @@
 title: "Publications"
 description: "2017 - 2026"
 subtitle: ""
-lastmod: 2026-04-17T00:00:00
+lastmod: 2026-05-06T00:00:00
 bg_image: "images/landscape/patagonia_torres2_banner.JPG"
 layout: "faq"
 draft: false
@@ -10,13 +10,43 @@ draft: false
 
 ## Summary
 
-H-index: 16; Total Citations: 2726; [Google Scholar](https://scholar.google.com/citations?hl=en&user=i9pmQasAAAAJ&view_op=list_works)  
+H-index: 17; Total Citations: 2806; [Google Scholar](https://scholar.google.com/citations?hl=en&user=i9pmQasAAAAJ&view_op=list_works)  
 _**EcoClimate Lab Member**, \*Corresponding/senior author; +Undergraduate mentee_
 
 <br>
 <br>
 
 ### 2026
+
+
+
+(31) **Klinges, D.H.**, Freidenburg, L. K., Rubinstein, A. D., Skelly, D. K. Meteorology and geography, more than biological traits, drive variation in frog phenology across decades. _Ecology_. DOI: 10.1002/ecy.70394
+
+
+<div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+
+<details>
+  <summary class="button-abstract-style">Abstract</summary>
+  <p>The fate of a species is a function of interacting environmental and biological processes. Disentangling the roles and interactions of such processes can elucidate the breadth of possible responses to global change, for instance, the potential for phenotypic plasticity or trait evolution to rescue populations from climate change. We explored how environmental and biological factors influenced the timing of emergence post-hibernation, and subsequent oviposition, of the temperate aquatic amphibian, Rana sylvatica. We evaluated how frog phenology changed for 64 populations over 25 years, pairing these observations with 45 years of mechanistic and machine learning simulations of microclimate and frog physiology. Adult frog oviposition dates varied between day-of-year 74 and 135, and on average advanced marginally by 1.6 days per decade. Coupled mechanistic models predicted frog emergence date with a median absolute error of 6.9 days (RMSE: 8.95 days). Sensitivity analyses of the mechanistic simulations demonstrated the importance of vegetation structure and meteorology, and their interactions, for driving variation in emergence dates, while frog behavior played a moderate role. Modeled variation in morphological and physiological traits had little effect on predicted phenological variation, even when trait space was unrealistically inflated. Our study suggests that for this system, interpopulation variability in phenology may be driven more by exogenous factors (the environment), and to a lesser extent behavior, rather than endogenous traits of morphology and physiology, the latter of which may provide little capacity to respond to changing climates over time. Our approach suggests that pairing phenological observations with generalizable mechanistic models can offer an effective platform to understand and predict responses to global change.</p>
+</details>
+
+<a class="external-url-button" href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.70394" target="_blank" rel="noopener noreferrer">
+  🔗 Link
+</a>
+
+<a class="external-pdf-button" href="/docs/papers/Klinges_Ecology_2026.pdf" target="_blank" rel="noopener noreferrer">
+  📄 PDF
+</a>
+
+</div>
+
+<br>
+<br>
+
+
+
+
+
 
 (30) **Klinges, D.H.**, Muñoz, M. M., Domínguez-Guerrero, S. F., Maclean, I.M.D., Kearney, M.R. Skelly, D.K. Matching climate to biological scales. _Trends in Ecology and Evolution_. DOI: 10.1016/j.tree.2025.11.015
 
@@ -800,9 +830,3 @@ _Herpetological Review Natural History Notes_
 <br>
 <br>
 
-### Manuscripts in Review
-
-Baecher, J.A., **Klinges, D.H.**, Evans, L.J., Romagosa, C.M., Fletcher Jr., R.J., Scheffers, B.R. Jointly evaluating management, climate, and land use shows diffuse spread of an invading predatory snake. _In revision_ at Journal of Applied Ecology [Preprint available](https://advance.sagepub.com/doi/full/10.22541/au.171248322.23946990/v1)
-
-
-Holmquist, J., Belshe, E. F., Boyd, B…**Klinges, D.H.**, et al. 29 total co-authors. Probabilistic forecasting of coastal wetland soil carbon response to sea-level rise. _In review_ at Ecological Monographs
