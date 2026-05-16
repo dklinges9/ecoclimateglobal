@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cape Cod Wedding Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; }
+    #map { width: 100vw; height: 100vh; }
+
+    /* ── Floating title ── */
+    .map-title {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      background: rgba(253, 248, 240, 0.93);
+      border: 2px solid #c8a97a;
+      border-radius: 8px;
+      padding: 14px 28px 12px;
+      text-align: center;
+      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.22);
+      pointer-events: none;
+      white-space: nowrap;
+    }
+    .map-title h1 {
+      font-family: 'Cinzel', Georgia, serif;
+      font-size: 22px;
+      font-weight: 900;
+      color: #3d2b1f;
+      line-height: 1.45;
+    }
+    .map-title .countdown {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 12.5px;
+      color: #8a6040;
+      margin-top: 5px;
+      letter-spacing: 0.03em;
+    }
+
+    /* ── Shared draggable panel ── */
+    .panel {
+      position: fixed;
+      z-index: 1000;
+      background: rgba(253, 248, 240, 0.97);
+      border: 2px solid #c8a97a;
+      border-radius: 8px;
+      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.22);
+      font-family: Georgia, 'Times New Roman', serif;
+      color: #3d2b1f;
+      user-select: none;
+    }
+    .panel-header {
+      font-family: 'Cinzel', Georgia, serif;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 10px 16px 8px;
+      border-bottom: 1.5px solid #c8a97a;
+      cursor: grab;
+    }
+    .panel-header:active { cursor: grabbing; }
+
+    /* ── Events sidebar ── */
+    #sidebar { top: 20px; left: 20px; width: 236px; }
+
+    .event-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 9px 14px;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(200, 169, 122, 0.35);
+      transition: background 0.15s;
+    }
+    .event-item:hover { background: rgba(200, 169, 122, 0.18); }
+    .event-item.active { background: rgba(200, 169, 122, 0.30); }
+    .event-number {
+      font-family: 'Cinzel', Georgia, serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #f58742;
+      min-width: 18px;
+      padding-top: 1px;
+      line-height: 1;
+    }
+    .event-name { font-size: 12px; font-weight: bold; line-height: 1.35; }
+    .event-meta { font-size: 11px; color: #7a5c3e; margin-top: 3px; line-height: 1.35; }
+    .event-dress { font-size: 10.5px; color: #9a6e4e; margin-top: 2px; font-style: italic; }
+
+    /* ── Layer toggles ── */
+    .layer-section { border-top: 1.5px solid #c8a97a; }
+    .layer-section-label {
+      font-family: 'Cinzel', Georgia, serif;
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #7a5c3e;
+      padding: 7px 14px 3px;
+    }
+    .layer-toggle {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 14px 7px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    .layer-toggle:last-child { padding-bottom: 10px; }
+    .layer-toggle:hover { background: rgba(200, 169, 122, 0.12); }
+    .layer-toggle input { cursor: pointer; accent-color: #f58742; }
+
+    /* ── Weather widget ── */
+    #weather { bottom: 28px; right: 20px; width: 218px; }
+    .weather-row {
+      display: flex;
+      align-items: center;
+      padding: 6px 12px;
+      border-bottom: 1px solid rgba(200, 169, 122, 0.28);
+      gap: 5px;
+    }
+    .weather-row:last-child { border-bottom: none; }
+    .weather-day { font-size: 11px; font-weight: bold; min-width: 54px; }
+    .weather-icon { font-size: 15px; min-width: 22px; text-align: center; }
+    .weather-temp { flex: 1; font-size: 11px; color: #5a4535; text-align: right; }
+    .weather-rain { font-size: 10.5px; color: #6a8fbb; min-width: 36px; text-align: right; }
+
+    /* ── POI & photo markers ── */
+    .poi-marker, .photo-marker { background: none; border: none; cursor: pointer; }
+    .poi-marker svg, .photo-marker svg {
+      display: block;
+      overflow: visible;
+      transition: transform 0.15s ease;
+      transform-origin: center;
+    }
+    .poi-marker:hover svg, .photo-marker:hover svg { transform: scale(1.25); }
+
+    /* ── Popup ── */
+    .leaflet-popup-content-wrapper {
+      background: #fdf8f0;
+      border: 1.5px solid #c8a97a;
+      border-radius: 7px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+      font-family: Georgia, 'Times New Roman', serif;
+      color: #3d2b1f;
+    }
+    .leaflet-popup-tip-container { margin-top: -1px; }
+    .leaflet-popup-tip { background: #fdf8f0; box-shadow: none; }
+    .leaflet-popup-content { margin: 12px 16px; }
+    .poi-name { font-size: 14px; font-weight: bold; line-height: 1.4; }
+    .poi-description { font-size: 13px; color: #5a4535; margin-top: 6px; line-height: 1.55; }
+    .poi-badge { font-size: 10px; letter-spacing: 0.05em; text-transform: uppercase; color: #9a6e4e; margin-bottom: 2px; }
+  </style>
+</head>
+<body>
+
+  <!-- Title + countdown -->
+  <div class="map-title">
+    <h1>Katie and Dave's Cape Cod Wedding<br>May 22nd &ndash; 25th, 2026</h1>
+    <div class="countdown" id="countdown"></div>
+  </div>
+
+  <!-- Events sidebar -->
+  <div id="sidebar" class="panel">
+    <div class="panel-header">Weekend Events</div>
+    <!-- event items injected by JS -->
+    <div class="layer-section">
+      <div class="layer-section-label">Map Layers</div>
+      <label class="layer-toggle">
+        <input type="checkbox" id="toggle-photos" onchange="togglePhotoSpots(this.checked)">
+        📷 Photo Spots
+      </label>
+    </div>
+  </div>
+
+  <!-- Weather widget -->
+  <div id="weather" class="panel">
+    <div class="panel-header">Cape Cod Forecast</div>
+    <div id="weather-body">
+      <div style="padding:10px 14px;font-size:11px;color:#7a5c3e">Loading forecast…</div>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    // ── Countdown to May 24, 2026 ─────────────────────────────────────────────
+    (function () {
+      const el = document.getElementById('countdown');
+      const target = new Date('2026-05-24T00:00:00');
+      const days = Math.ceil((target - Date.now()) / 86400000);
+      if      (days > 0) el.textContent = days + ' day' + (days !== 1 ? 's' : '') + ' until the wedding!';
+      else if (days === 0) el.textContent = "Today's the day! ♥";
+      else    el.textContent = "Happily ever after ♥";
+    })();
+
+    // ── POI data ─────────────────────────────────────────────────────────────
+    const pois = [
+      {
+        name: "Wychmere Beach Club",
+        lat: 41.663773793953936, lng: -70.06572682587444,
+        description: "the location of our Reception."
+      },
+      {
+        name: "St. Christopher's Episcopal Church",
+        lat: 41.6821824367152, lng: -69.9601218658917,
+        description: "the location of our ceremony. Established in 1960, St. Christopher's has evolved from a small to a year-round parish. Their entrance hall features rotations of Christian art collections. Reverand Jennifer Zogg was trained at the Yale Divinity School, just across the street from Dave's current job. See <a href=\"https://www.stchristopherschatham.org/history/\">here</a> for more."
+      },
+      {
+        name: "Sundae School",
+        lat: 41.66819761879679, lng: -70.06949944968422,
+        description: "Katie's favorite ice cream place growing up! How convenient that they are nestled just across the street from our Reception venue, Wychmere Beach Resort."
+      },
+      {
+        name: "Winslow Estate",
+        lat: 41.7362329289778, lng: -69.97929627534367,
+        description: "4 Ewing Drive, where the Welcome Dinner will be hosted."
+      },
+      {
+        name: "Inn on the Beach",
+        lat: 41.66462763224649, lng: -70.07252260339496,
+        description: "An inn right by our Reception that many of you are staying in – say hi to some other guests, both familiar faces and new friends!"
+      },
+      {
+        name: "Kingfisher Harwich Port",
+        lat: 41.665140430244904, lng: -70.07310065353415,
+        description: "An inn right by our Reception that many of you are staying in – say hi to some other guests, both familiar faces and new friends!"
+      },
+      {
+        name: "Winstead Beach Resort",
+        lat: 41.66451218796173, lng: -70.07287119636123,
+        description: "An inn right by our Reception that many of you are staying in – say hi to some other guests, both familiar faces and new friends!"
+      },
+      {
+        name: "Bank Street Beach",
+        lat: 41.663413094380125, lng: -70.07054759875955,
+        description: "The public beach of Harwich Port. Right in front of Wychmere and easy access for everyone! The Bank Street Beach parking lot is public access before July 1st, and this is where shuttles will pick up guests on Saturday and Sunday."
+      },
+      {
+        name: "Monomoy National Wildlife Refuge",
+        lat: 41.65743740845325, lng: -69.95883823240193,
+        description: "A refuge initially established to protect lands for migratory birds, Monomoy offers public beaches that are a consistent spot to see sun-basking seals. Parking is available at the location of this pin. Please see <a href=\"https://www.fws.gov/refuge/monomoy\">here</a> for more."
+      },
+      {
+        name: "Chatham Lighthouse",
+        lat: 41.67153991871152, lng: -69.94990748650496,
+        description: "Erected in 1877, although the Coast Guard station dates back to 1808. An icon of Cape Cod, it's a nice stroll from downtown."
+      }
+    ];
+
+    // ── Photo spots (my suggestions — let me know what you'd like to add!) ───
+    const photoSpots = [
+      {
+        name: "Chatham Fish Pier",
+        lat: 41.67536, lng: -69.95099,
+        description: "A classic Cape Cod working harbor — fishing boats, weathered pilings, and sweeping views. Best in the early morning when the fleet comes in."
+      },
+      {
+        name: "Stage Harbor",
+        lat: 41.66409, lng: -69.97042,
+        description: "A serene harbor with beautiful boat reflections and marshes. Late-afternoon light here is especially golden."
+      },
+      {
+        name: "Hardings Beach",
+        lat: 41.66829, lng: -70.03128,
+        description: "A quieter stretch of beach looking west over Nantucket Sound — perfect for sunset shots."
+      },
+      {
+        name: "Shore Road Overlook",
+        lat: 41.68891, lng: -69.96510,
+        description: "A scenic vantage along Shore Road with sweeping views of Pleasant Bay and the outer barrier beach beyond."
+      }
+    ];
+
+    // ── Weekend events ────────────────────────────────────────────────────────
+    const DRESS_EMOJI = { 'Casual': '👟', 'Dressy casual': '👔', 'Formal': '🎩' };
+
+    const events = [
+      { name: "Beach Games and Fun",                     poiName: "Bank Street Beach",              date: "Sat, May 23", time: "10:00 am – 2:00 pm",  dress: "Casual"        },
+      { name: "Wedding Weekend Welcome Dinner & Drinks", poiName: "Winslow Estate",                 date: "Sat, May 23", time: "6:00 pm – 9:00 pm",   dress: "Dressy casual" },
+      { name: "Wedding Ceremony",                        poiName: "St. Christopher's Episcopal Church", date: "Sun, May 24", time: "3:15 pm – 3:45 pm",  dress: "Formal"        },
+      { name: "Wedding Reception",                       poiName: "Wychmere Beach Club",             date: "Sun, May 24", time: "5:00 pm – 11:00 pm",  dress: "Formal"        },
+      { name: "Bagels and Goodbyes",                     poiName: "Inn on the Beach",                date: "Mon, May 25", time: "9:30 am – 11:00 am",  dress: "Casual"        }
+    ];
+
+    // ── Map init ──────────────────────────────────────────────────────────────
+    const map = L.map("map", { center: [41.70, -70.18], zoom: 11, minZoom: 9, maxZoom: 16 });
+
+    L.tileLayer("https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg?api_key=bb32ecf2-da7c-42db-b98b-4c11806dec49", {
+      maxZoom: 16,
+      attribution:
+        'Map tiles by <a href="https://stamen.com" target="_blank">Stamen Design</a>, ' +
+        'under <a href="https://creativecommons.org/licenses/by/3.0" target="_blank">CC BY 3.0</a>. ' +
+        'Data by <a href="https://openstreetmap.org" target="_blank">OpenStreetMap</a>, ' +
+        'under <a href="https://www.openstreetmap.org/copyright" target="_blank">ODbL</a>.'
+    }).addTo(map);
+
+    // ── Flag icon ─────────────────────────────────────────────────────────────
+    function makeIcon() {
+      return L.divIcon({
+        className: "poi-marker",
+        html: `<svg width="22" height="36" viewBox="0 0 22 36" xmlns="http://www.w3.org/2000/svg">
+          <line x1="4" y1="2" x2="4" y2="35" stroke="#6b5a3e" stroke-width="2.5" stroke-linecap="round"/>
+          <polygon points="5,2 21,9 5,18" fill="#f58742"/>
+        </svg>`,
+        iconSize: [22, 36], iconAnchor: [4, 35], popupAnchor: [9, -36]
+      });
+    }
+
+    // ── Diamond icon for photo spots ──────────────────────────────────────────
+    function makePhotoIcon() {
+      return L.divIcon({
+        className: "photo-marker",
+        html: `<svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="11,1 21,11 11,21 1,11" fill="#a06cc0" stroke="rgba(255,255,255,0.8)" stroke-width="1.5"/>
+          <text x="11" y="15.5" text-anchor="middle" font-size="9" fill="#fff" font-family="serif">✦</text>
+        </svg>`,
+        iconSize: [22, 22], iconAnchor: [11, 11], popupAnchor: [0, -14]
+      });
+    }
+
+    // ── Place POI markers ─────────────────────────────────────────────────────
+    const markersByName = {};
+    pois.forEach(poi => {
+      const m = L.marker([poi.lat, poi.lng], { icon: makeIcon() }).addTo(map);
+      m.bindPopup(
+        `<div class="poi-name">${poi.name}</div>` +
+        (poi.description ? `<div class="poi-description">${poi.description}</div>` : ""),
+        { maxWidth: 260 }
+      );
+      markersByName[poi.name] = m;
+    });
+
+    // ── Photo spots layer ─────────────────────────────────────────────────────
+    const photoLayer = L.layerGroup();
+    photoSpots.forEach(s => {
+      const m = L.marker([s.lat, s.lng], { icon: makePhotoIcon() });
+      m.bindPopup(
+        `<div class="poi-badge">📷 Photo Spot</div>` +
+        `<div class="poi-name">${s.name}</div>` +
+        `<div class="poi-description">${s.description}</div>`,
+        { maxWidth: 240 }
+      );
+      photoLayer.addLayer(m);
+    });
+
+    function togglePhotoSpots(on) {
+      if (on) photoLayer.addTo(map); else map.removeLayer(photoLayer);
+    }
+
+    // ── Build sidebar event items ─────────────────────────────────────────────
+    const sidebarEl  = document.getElementById('sidebar');
+    const layerBlock = sidebarEl.querySelector('.layer-section');
+    let activeItem   = null;
+
+    events.forEach((ev, i) => {
+      const item = document.createElement('div');
+      item.className = 'event-item';
+      item.innerHTML =
+        `<div class="event-number">${i + 1}</div>` +
+        `<div>` +
+          `<div class="event-name">${ev.name}</div>` +
+          `<div class="event-meta">${ev.date}<br>${ev.time}</div>` +
+          `<div class="event-dress">${DRESS_EMOJI[ev.dress] || ''} ${ev.dress}</div>` +
+        `</div>`;
+      item.addEventListener('click', () => {
+        if (activeItem) activeItem.classList.remove('active');
+        item.classList.add('active');
+        activeItem = item;
+        const marker = markersByName[ev.poiName];
+        if (marker) {
+          map.flyTo(marker.getLatLng(), 15, { animate: true, duration: 1.2 });
+          setTimeout(() => marker.openPopup(), 950);
+        }
+      });
+      sidebarEl.insertBefore(item, layerBlock);
+    });
+
+    // ── Weather widget ────────────────────────────────────────────────────────
+    const WMO = {
+      0:'☀️', 1:'🌤️', 2:'⛅', 3:'🌥️',
+      45:'🌫️', 48:'🌫️',
+      51:'🌦️', 53:'🌦️', 55:'🌦️',
+      61:'🌧️', 63:'🌧️', 65:'🌧️',
+      71:'❄️',  73:'❄️',  75:'❄️',
+      80:'🌦️', 81:'🌦️', 82:'🌦️',
+      95:'⛈️', 96:'⛈️', 99:'⛈️'
+    };
+    const DOW = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+    function wmoEmoji(c) { return WMO[c] || (c <= 3 ? '⛅' : c <= 65 ? '🌦️' : '🌧️'); }
+
+    (async function fetchWeather() {
+      const body = document.getElementById('weather-body');
+      try {
+        const r = await fetch(
+          'https://api.open-meteo.com/v1/forecast' +
+          '?latitude=41.66&longitude=-70.07' +
+          '&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weathercode' +
+          '&timezone=America%2FNew_York' +
+          '&start_date=2026-05-22&end_date=2026-05-25' +
+          '&temperature_unit=fahrenheit'
+        );
+        const { daily: d } = await r.json();
+        body.innerHTML = d.time.map((t, i) => {
+          const dt    = new Date(t + 'T12:00:00');
+          const label = DOW[dt.getDay()] + ' ' + (dt.getMonth() + 1) + '/' + dt.getDate();
+          return `<div class="weather-row">
+            <span class="weather-day">${label}</span>
+            <span class="weather-icon">${wmoEmoji(d.weathercode[i])}</span>
+            <span class="weather-temp">${Math.round(d.temperature_2m_max[i])}° / ${Math.round(d.temperature_2m_min[i])}°</span>
+            <span class="weather-rain">💧${d.precipitation_probability_max[i]}%</span>
+          </div>`;
+        }).join('');
+      } catch (_) {
+        body.innerHTML = '<div style="padding:10px 14px;font-size:11px;color:#7a5c3e">Forecast unavailable</div>';
+      }
+    })();
+
+    // ── Draggable panels ──────────────────────────────────────────────────────
+    function makeDraggable(el) {
+      const handle = el.querySelector('.panel-header');
+      if (!handle) return;
+      handle.addEventListener('mousedown', e => {
+        e.preventDefault();
+        const rect = el.getBoundingClientRect();
+        const ox = e.clientX - rect.left;
+        const oy = e.clientY - rect.top;
+        function onMove(e) {
+          el.style.left   = (e.clientX - ox) + 'px';
+          el.style.top    = (e.clientY - oy) + 'px';
+          el.style.right  = 'auto';
+          el.style.bottom = 'auto';
+          el.style.transform = 'none';
+        }
+        function onUp() {
+          document.removeEventListener('mousemove', onMove);
+          document.removeEventListener('mouseup',   onUp);
+        }
+        document.addEventListener('mousemove', onMove);
+        document.addEventListener('mouseup',   onUp);
+      });
+      el.addEventListener('wheel', e => e.stopPropagation(), { passive: false });
+    }
+
+    makeDraggable(sidebarEl);
+    makeDraggable(document.getElementById('weather'));
+  </script>
+</body>
+</html>
