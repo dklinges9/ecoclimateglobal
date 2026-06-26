@@ -12,7 +12,9 @@ layout: "faq"
 
 <br>
 
-Please see below for current and upcoming opportunities to join the group. We always welcome inquiries from motivated potential members with research interests that fit our group!
+We do not currently have funded opportunities available. However, we always welcome inquiries from independent and motivated potential members with research interests that fit our group!
+
+There are a number of fellowships that fund PhD and Postdoctoral positions. If you are interested in applying for a fellowship to join our group, please reach out to Dave so that we can discuss.  
 
 We prioritize new members who will facilitate the largest amount of growth for the group – you learn more from us, and we learn more from you. This entails membership from a diverse set of backgrounds, perspective, disciplines, and skillsets. Ideally, you can (or soon will) do things that we cannot, and we can do things that at first were new to you, so that we are all growing together. Ultimately, however, we are unified by our research interests and mission: advancing knowledge and practice on how humans, crops, and biodiversity are all impacted by climate change.
 
@@ -25,64 +27,6 @@ For understanding how we work, please see below for more on [our Lab Philosophy]
 
 ![image alt = 50](/images/wildlife/ameerega_trivittata_square.png)
 
-<br>
-<br>
-
-<u style="font-size:28px">Postdoctoral Associate - Rutgers University</u>
-
-**_Note: we have already interviewed several excellent candidates for this position. We will likely move forward with one of these candidates, but you are still welcome to apply._**
-
-<br>
-<br>
-
-The EcoClimate lab at Rutgers University is recruiting a **Postdoctoral Associate to join our lab beginning Fall 2026, funded for two years**.
-
-Applicants may either propose a research project that fits with our lab, or identify EcoClimate work that aligns with their interests. Possible (overlapping) themes include:  
-
--- Analyzing global rates of climate change and extreme events as experienced by life on earth using in-house databases (e.g. DirtClim) as well as hybridizing mechanistic and AI microclimate models  
--- Use-inspired modeling of climate connectivity, wildlife corridors, and species on the move, especially for socially and economically important species  
--- Iterative near-term forecasting of terrestrial and/or aquatic ecosystems with an emphasis on microclimate and ecophysiology  
--- Leveraging structured decision-making to assist conservation planning given uncertain futures in Madagascar  
-
-**Desired qualifications:**
-
--- Demonstrated track record of peer-reviewed publications  
--- Experience developing software with Python, R, and/or Julia  
--- Experience with machine learning and AI algorithms and tooling (e.g. PyTorch)  
--- Experience with remote sensing and open-source GIS tools (e.g. Google Earth Engine)  
--- Expertise related to climate change, meteorology, terrestrial ecology, physiology, or conservation decision-making  
-
-
-**Application process:**
-
-If interested, please read through our lab website and reach out to Dr. David Klinges (d.klinges@rutgers.edu). In your email, please include:
-
-1. a brief description of your research interests and what project(s) you would intend to pursue as a Postdoctoral Associate in our group,
-2. your CV with contact information for 2+ references, and
-3. an exemplary writing sample, e.g. peer-reviewed publication
-
-In the subject line of your email, please include "Postdoc 2026: EcoClimate Lab". Review of applications will begin in January 2026 and continue thereafter.
- 
-**Position details:**
-
-Funding is available for two calendar years (24 months), with an intended start date between September 1 and December 1 2026. Salary starts at $63,968 per year and includes health insurance, retirement and tax savings plans, and other benefits. Funding is available to support the postdoc’s research and career development, including for conference and research travel, publication costs, and computational resources. The chosen candidate will also have opportunities to join collaborations, participate in working groups, write grants, engage with natural resource managers and conservation practitioners, and work with graduate and undergraduate students, depending on their interests. Applicants must have a PhD at the time of employment.
-
-
-
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-<u style="font-size:28px">PhD Student – Rutgers University</u>
-
-_We are no longer accepting applications for PhD positions starting in 2026._  
-
-
-<br>
 <br>
 <br>
 
