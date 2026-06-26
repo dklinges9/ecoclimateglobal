@@ -19,7 +19,7 @@ Dr. David Klinges
 
 </h2>
     <p>
-Dave is the Principal Investigator of the EcoClimate Group. He is currently a Postdoctoral Associate at Yale University and an incoming Assistant Professor at Rutgers University. See <a href="/about/">here</a> for more.
+Dave is the Principal Investigator of the EcoClimate Group, and Assistant Professor of Data Science/AI in the Department of Ecology, Evolution, and Natural Resources at Rutgers University. See <a href="/about/">here</a> for more.
 <br>
 <br>
 <br>
@@ -41,7 +41,7 @@ Dr. Stef Haesen
 
 </h2>
     <p>
-Stef is a Postdoctoral Fellow via the Belgian American Educational Foundation (BAEF) joining us from Leuven, Belgium, where he did his PhD and a prior postdoc at KU Leuven. Stef uses machine learning and other data-driven approaches to quantify microclimate variation, especially within forests, and to understand how species' distributions respond to their experienced microclimates. As part of his fellowship, he'll be emulating mechanistic microclimate models to advance macroecological research.
+Stef is a Postdoctoral Fellow via Belgium's FWO (Fonds voor Wetenschappelijk Onderzoek), co-advised by Dave and Stef Lhermitte at KU Leuven (Belgium). Previously, he was a Postdoctoral Fellow via the Belgian American Educational Foundation (BAEF) alongside Dave at Yale University, after completeing his PhD and a prior postdoc at KU Leuven. Stef uses machine learning and other data-driven approaches to quantify microclimate variation, especially within forests, and to understand how species' distributions respond to their experienced microclimates. As part of his fellowship, he'll be emulating mechanistic microclimate models to advance macroecological research.
 
 <br>
 
