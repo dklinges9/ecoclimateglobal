@@ -9,29 +9,18 @@ bg_image: "images/landscape/patagonia_torres2_banner.JPG"
 
 ![image alt = >30](/images/research/research_program.png)
 
-## Linking Thermal Ecology and Biogeography for understanding Global Change
+## _Linking Thermal Ecology and Biogeography for understanding Global Change_
 
 <br>
 
 
 <br>
 <br>
-
-The ecological disciplines of spatial ecology, macroecology, and biogeography have made considerable developments in recent decades, yet largely independent of the equally important fields of ecophysiology and biophysics. My research program seeks to unify these fields for a more integrative and nuanced understanding of how biodiversity, environments and societies respond to global change.
-
+<h2>
+Through our research, we unify theory, methods, and data from historically decoupled disciplines: <b>surface meteorology</b> to understand climatic conditions where biodiversity lives, <b>organismal biology</b> to represent physiology, growth and behavior, and <b>macroecology</b> to describe spatial and temporal patterns up to global scales. Such integrative approaches are necessary to understand how environments and societies respond to global change.
+</h2>
 <br>
 <br>
-
-<h3>
-<strong><i>
-How will ecological systems and landscapes change in the face of the compounded threats of global change?
-</i>  
-</h3>
-
-
-
-
-
 
 
 <section class="feature-grid full-bleed" style="color:#ffffffff;">
@@ -68,9 +57,7 @@ _Exemplary publications:_
 [Klinges _et al._ 2026 _Trends in Ecology and Evolution_](https://www.cell.com/trends/ecology-evolution/abstract/S0169-5347(25)00350-7)  
 [Klinges _et al._ 2025 _Frontiers in Ecology and the Environment_](https://onlinelibrary.wiley.com/doi/abs/10.1002/fee.2831)  
 [Klinges _et al._ 2024 _Global Ecology and Biogeography_](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13884)   
-[Klinges and Scheffers 2021 _The American Naturalist_](https://www.journals.uchicago.edu/doi/10.1086/711873)  
 [Klinges _et al._ 2022 _Methods in Ecology and Evolution_](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13877)  
-[De Frenne _et al._ 2025 _Methods in Ecology and Evolution_](https://onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14476)  
 [De Frenne _et al._ 2021 _Global Change Biology_](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15569)  
 </p>
   </article>
@@ -143,7 +130,6 @@ _Exemplary publications:_
 [Klinges _et al._ 2024 _Global Ecology and Biogeography_](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13884)  
 [Maclean and Klinges 2021 _Ecological Modelling_](https://www.sciencedirect.com/science/article/pii/S0304380021001265)  
 [Trew _et al._ 2024 _Nature Climate Change_](https://www.nature.com/articles/s41558-024-02031-0)    
-[Lembrechts _et al._ 2022 _Globbal Change Biology_](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.16060)  
 </p>
   </article>
 
@@ -188,7 +174,6 @@ _Exemplary publications:_
 [Fredston _et al._ 2025 _Trends in Ecology and Evolution_](https://www.sciencedirect.com/science/article/pii/S0169534725000874)  
 [Soifer _et al._ 2025 _Trends in Ecology and Evolution_](https://www.sciencedirect.com/science/article/pii/S0169534725001776)   
 [Klinges _et al._ 2024 _Global Ecology and Biogeography_](https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.13884)  
-[Baecher, Klinges, Evans, Fletcher, Romagosa, Scheffers _In Review_](https://www.authorea.com/doi/full/10.22541/au.171248322.23946990)  
 </p>
 
 
@@ -228,6 +213,8 @@ Animal physiology is a junction of an individual's traits and behavior with its 
 <br>
 
 _Exemplary publications:_  
+<br>
+[Klinges, D.H. _et al._ 2026 _Ecology_](https://onlinelibrary.wiley.com/doi/abs/10.1002/ecy.70394)
 <br>
 [Klinges, D.H. _et al._ 2024 _Proceedings of the Royal Society of London B: Biological Sciences_](https://royalsocietypublishing.org/doi/10.1098/rspb.2024.1497)
 <br>

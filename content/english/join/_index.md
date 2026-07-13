@@ -14,7 +14,7 @@ layout: "faq"
 
 We do not currently have funded opportunities available. However, we always welcome inquiries from independent and motivated potential members with research interests that fit our group!
 
-There are a number of fellowships that fund PhD and Postdoctoral positions. If you are interested in applying for a fellowship to join our group, please reach out to Dave so that we can discuss.  
+There are a number of fellowships that fund PhD and Postdoctoral positions. If you are interested in applying for a fellowship to join our group, please reach out to Dave (d.klinges[at]rutgers.edu) so that we can discuss.  
 
 We prioritize new members who will facilitate the largest amount of growth for the group – you learn more from us, and we learn more from you. This entails membership from a diverse set of backgrounds, perspective, disciplines, and skillsets. Ideally, you can (or soon will) do things that we cannot, and we can do things that at first were new to you, so that we are all growing together. Ultimately, however, we are unified by our research interests and mission: advancing knowledge and practice on how humans, crops, and biodiversity are all impacted by climate change.
 
@@ -36,7 +36,7 @@ We will be open to accepting one or several undergraduate students during the ac
 
 <br>
 
-If interested, please reach out to Dr. David Klinges ([dklinges9@gmail.com](mailto:dklinges9@gmail.com)). In your email, please include your CV / resume, unofficial transcripts, and a brief description of why you are interested in getting involved with our group.
+If interested, please reach out to Dr. David Klinges (d.klinges[at]rutgers.edu). In your email, please include your CV / resume, unofficial transcripts, and a brief description of why you are interested in getting involved with our group.
 
 <br>
 <br>
@@ -45,7 +45,7 @@ If interested, please reach out to Dr. David Klinges ([dklinges9@gmail.com](mail
 
 <u style="font-size:20px">Remote Lab Members</u>
 
-We are open to collaborating through other means even without formal involvement at Rutgers. Please reach out to Dr. David Klinges ([dklinges9@gmail.com](mailto:dklinges9@gmail.com)) if you are interested in leading research projects that pertain to the group's interests.
+We are open to collaborating through other means even without formal involvement at Rutgers. Please reach out to Dr. David Klinges (d.klinges[at]rutgers.edu) if you are interested in leading research projects that pertain to the group's interests.
 
 <br>
 <br>
