@@ -51,6 +51,25 @@ Stef is a Postdoctoral Fellow via Belgium's FWO (Fonds voor Wetenschappelijk Ond
 
 
 
+<!-- OUMNIA ENNAJI -->
+
+
+  <article class="feature" style="--bg: #4d485dff;">
+    <h2  style="text-align: center;">
+Dr. Oumnia Ennaji
+
+</h2>
+    <p>
+Oumnia Ennaji is a researcher with a background in agricultural sciences, data science, and machine learning. She completed her PhD at Mohammed VI Polytechnic University (UM6P), where her research focused on applying machine learning and explainable AI to crop yield prediction and site-specific nutrient management. Her work combines data-driven approaches with agricultural and environmental applications, with a particular interest in developing tools that can support more efficient and sustainable decision-making. She will join the EcoClimate Lab as a postdoctoral researcher, where she will apply her expertise in machine learning and environmental data to study ecological and climate-related questions.
+
+<br>
+
+![image alt=70](/images/people/oumnia_ennaji.png)
+</p>
+  </article>
+
+
+
 <!-- MAYA HALL -->
 
 
@@ -83,7 +102,7 @@ Peter D. Campbell
 
 </h2>
     <p>
-Pete completed his Master's in Ecology and Evolution at the University of Kansas' Natural History Museum, and has now joined Dave and the rest of the EcoClimate lab in pursuit of a PhD. His work has focused on georeferencing techniques for historical specimens, species distribution modeling using past and present climate and specimen records, and genomic data collection and analysis for mating selection in aquaculture. Pete is now interested in studying distribution models of individual alleles, to better understand adaptation under past, present, and future conditions
+Pete completed his Master's in Ecology and Evolution at the University of Kansas' Natural History Museum, and has now joined Dave and the rest of the EcoClimate lab in pursuit of a PhD. His work has focused on georeferencing techniques for historical specimens, species distribution modeling using past and present climate and specimen records, and genomic data collection and analysis for mating selection in aquaculture. Pete is now interested in studying distribution models of individual alleles, to better understand adaptation under past, present, and future conditions.
 
 <br>
 

@@ -8,8 +8,8 @@ banner:
   content : "Research, Education, Multimedia, and Outreach by the Klinges Lab at Rutgers University"
   button:
     enable : true
-    label : "Learn more about Dave"
-    link : "about"
+    label : "Learn more about the Lab"
+    link : "people"
 
 ############################# About #################################
 about:
@@ -47,6 +47,7 @@ Linking Thermal Ecology and Biogeography for understanding Global Change
     enable : true
     label : "View Research Page"
     link : "research"
+
 
 ############################# Funfacts ###############################
 funfacts:
