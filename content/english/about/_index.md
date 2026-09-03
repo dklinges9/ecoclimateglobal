@@ -14,13 +14,16 @@ about:
   enable : true
   image : "images/people/nature_dave/nature_patagonia1.jpg"
   title : ""
-  content : "I am an incoming Assistant Professor at Rutgers University in the [Department of Ecology, Evolution, and Natural Resources](https://deenr.rutgers.edu/) starting Fall 2026.
+  content : "I am an Assistant Professor at Rutgers University in the [Department of Ecology, Evolution, and Natural Resources](https://deenr.rutgers.edu/) since Fall 2026.
 
-Currently, I am a Postdoctoral Associate in the [Skelly Lab at Yale University](https://campuspress.yale.edu/skellylab/). I completed my PhD at the University of Florida in the [Scheffers Lab](https://www.schefferslab.com/) (2019-2024), prior to which I held data science and GIS positions at the Smithsonian, conducted biodiversity monitoring for an agroforestry NGO in the Peruvian Amazon, and graduated in 2017 from Dartmouth College.
+Previously, I was a Postdoctoral Associate in the [Skelly Lab at Yale University](https://campuspress.yale.edu/skellylab/). I completed my PhD at the University of Florida in the [Scheffers Lab](https://www.schefferslab.com/) (2019-2024), prior to which I held data science and GIS positions at the Smithsonian, conducted biodiversity monitoring for an agroforestry NGO in the Peruvian Amazon, and graduated in 2017 from Dartmouth College.
 
-In my research, I employ observational, experimental, and computational approaches to explore how climate change and land use change both shape biodiversity and the environment from local to global scales. I attempt to be a “full-stack” ecologist, engaging in ecological research from empirical data collection (namely in Madagsacar) to data curation to statistical and mathematical modeling to application for real-world conservation and management. See our [Research Program](/research/) for more.
+In my research, I employ observational, experimental, and computational approaches to explore how climate change and land use change both shape biodiversity and the environment from local to global scales. I attempt to be a “full-stack” ecologist, engaging in ecological research from empirical data collection (namely in Madagsacar) to data curation to statistical and mathematical modeling to application for real-world conservation and management. See our [Research Program](/research/) and my [Google Scholar](https://scholar.google.com/citations?hl=en&user=i9pmQasAAAAJ&view_op=list_works) for more.
+<br>
+<br>
 
 _CV last updated: April 2026_  
+<br>
 "
 
   button:
